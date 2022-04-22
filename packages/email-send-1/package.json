@@ -1,0 +1,40 @@
+{
+  "name": "email-send-1",
+  "version": "0.1.0",
+  "license": "",
+  "author": "",
+  "sideEffects": false,
+  "main": "src/ses.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "yarn clean && yarn compile",
+    "clean": "rimraf dist/",
+    "compile": "tsc -p tsconfig.json",
+    "compile-watch": "tsc -p tsconfig.json --watch",
+    "compile-watch:light": "nodemon --watch ./src/ -e '*' --exec 'yarn compile'",
+    "coverage": "jest --collect-coverage --passWithNoTests --config=./jest.config.js",
+    "infra": "template infra",
+    "prepublishOnly": "yarn run build",
+    "template": "template-email-send",
+    "template-ts": "ts-node scripts/template.ts",
+    "test-ci": "GOLDSTACK_DEPLOYMENT=local jest --passWithNoTests --config=./jest.config.js"
+  },
+  "dependencies": {
+    "@goldstack/template-email-send": "0.3.99",
+    "@goldstack/utils-git": "0.1.32",
+    "@goldstack/utils-sh": "0.4.29"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "@types/node": "^16.11.0",
+    "aws-sdk": "2.814.0",
+    "jest": "^27.5.1",
+    "nodemon": "^2.0.15",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^27.1.4",
+    "ts-node": "^10.3.0",
+    "typescript": "^4.4.3"
+  }
+}
