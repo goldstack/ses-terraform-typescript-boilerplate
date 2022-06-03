@@ -10,7 +10,7 @@
       "awsUser": "goldstack-dev",
       "awsRegion": "us-west-2",
       "configuration": {
-        "domain": "email-send-1654210611274.tests.dev.goldstack.party",
+        "domain": "email-send-1654294042886.tests.dev.goldstack.party",
         "hostedZoneDomain": "dev.goldstack.party"
       }
     }

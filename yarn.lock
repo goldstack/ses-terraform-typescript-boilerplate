@@ -691,24 +691,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-email-send@npm:0.3.104":
-  version: 0.3.104
-  resolution: "@goldstack/template-email-send@npm:0.3.104"
+"@goldstack/template-email-send@npm:0.3.106":
+  version: 0.3.106
+  resolution: "@goldstack/template-email-send@npm:0.3.106"
   dependencies:
     "@goldstack/infra": 0.3.37
     "@goldstack/infra-aws": 0.3.45
     "@goldstack/utils-cli": 0.2.14
     "@goldstack/utils-esbuild": 0.4.2
     "@goldstack/utils-package": 0.3.39
-    "@goldstack/utils-package-config-embedded": 0.4.2
+    "@goldstack/utils-package-config-embedded": 0.4.3
     "@goldstack/utils-terraform": 0.3.69
     "@goldstack/utils-terraform-aws": 0.3.68
     aws-sdk: 2.1055.0
     uuid: ^8.3.0
-  bin:
-    template: ./bin/template
-    template-email-send: ./bin/template
-  checksum: ddf1265a120d33218de4b95bdd3114b7e19e6d493bf9bcf8a21497eed3ae9f797ed6e1cf49fce32ea6a13a66abaf85e7bf4ea58c1323ef088917267db409943c
+  checksum: c4d97f67952da1049904c3b6d63a3dd859bff2546a8737eaf6079f2615426ffd3cf5d48206ebe57607ddb3a489dbf93dde16b4cd8a0c15eb4d2cf9e4e7a6826a
   languageName: node
   linkType: hard
 
@@ -766,14 +763,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/utils-package-config-embedded@npm:0.4.2":
-  version: 0.4.2
-  resolution: "@goldstack/utils-package-config-embedded@npm:0.4.2"
+"@goldstack/utils-package-config-embedded@npm:0.4.3":
+  version: 0.4.3
+  resolution: "@goldstack/utils-package-config-embedded@npm:0.4.3"
   dependencies:
     "@goldstack/infra": 0.3.37
     "@goldstack/utils-config": 0.3.34
     "@goldstack/utils-package": 0.3.39
-  checksum: c454c1de3d043f00c77a96246e09b9f359b937d56f2d30c9bfc6c2e8372d1c3d5e84e3347006c6f5b72c49850d9e22f56df90c0ee2627a51b2ee23c5104e0ede
+  checksum: 0fb841d6323031e5650b0d8e301f644c11315e07d399fef77b88c8fb569662247033b0db57a963886a7229bdfa68a3793ae3e26695399f58f6fc5b591a855424
   languageName: node
   linkType: hard
 
@@ -2886,7 +2883,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "email-send-1@workspace:packages/email-send-1"
   dependencies:
-    "@goldstack/template-email-send": 0.3.104
+    "@goldstack/template-email-send": 0.3.106
     "@goldstack/utils-git": 0.1.35
     "@goldstack/utils-sh": 0.4.32
     "@types/jest": ^27.5.1

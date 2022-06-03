@@ -1111,16 +1111,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@goldstack/template-email-send", [\
-        ["npm:0.3.104", {\
-          "packageLocation": "./.yarn/cache/@goldstack-template-email-send-npm-0.3.104-ad49411227-ddf1265a12.zip/node_modules/@goldstack/template-email-send/",\
+        ["npm:0.3.106", {\
+          "packageLocation": "./.yarn/cache/@goldstack-template-email-send-npm-0.3.106-633f672ae4-c4d97f6795.zip/node_modules/@goldstack/template-email-send/",\
           "packageDependencies": [\
-            ["@goldstack/template-email-send", "npm:0.3.104"],\
+            ["@goldstack/template-email-send", "npm:0.3.106"],\
             ["@goldstack/infra", "npm:0.3.37"],\
             ["@goldstack/infra-aws", "npm:0.3.45"],\
             ["@goldstack/utils-cli", "npm:0.2.14"],\
             ["@goldstack/utils-esbuild", "npm:0.4.2"],\
             ["@goldstack/utils-package", "npm:0.3.39"],\
-            ["@goldstack/utils-package-config-embedded", "npm:0.4.2"],\
+            ["@goldstack/utils-package-config-embedded", "npm:0.4.3"],\
             ["@goldstack/utils-terraform", "npm:0.3.69"],\
             ["@goldstack/utils-terraform-aws", "npm:0.3.68"],\
             ["aws-sdk", "npm:2.1055.0"],\
@@ -1204,10 +1204,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@goldstack/utils-package-config-embedded", [\
-        ["npm:0.4.2", {\
-          "packageLocation": "./.yarn/cache/@goldstack-utils-package-config-embedded-npm-0.4.2-eb31fa5aa6-c454c1de3d.zip/node_modules/@goldstack/utils-package-config-embedded/",\
+        ["npm:0.4.3", {\
+          "packageLocation": "./.yarn/cache/@goldstack-utils-package-config-embedded-npm-0.4.3-4792b6c74d-0fb841d632.zip/node_modules/@goldstack/utils-package-config-embedded/",\
           "packageDependencies": [\
-            ["@goldstack/utils-package-config-embedded", "npm:0.4.2"],\
+            ["@goldstack/utils-package-config-embedded", "npm:0.4.3"],\
             ["@goldstack/infra", "npm:0.3.37"],\
             ["@goldstack/utils-config", "npm:0.3.34"],\
             ["@goldstack/utils-package", "npm:0.3.39"]\
@@ -3711,7 +3711,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./packages/email-send-1/",\
           "packageDependencies": [\
             ["email-send-1", "workspace:packages/email-send-1"],\
-            ["@goldstack/template-email-send", "npm:0.3.104"],\
+            ["@goldstack/template-email-send", "npm:0.3.106"],\
             ["@goldstack/utils-git", "npm:0.1.35"],\
             ["@goldstack/utils-sh", "npm:0.4.32"],\
             ["@types/jest", "npm:27.5.1"],\
