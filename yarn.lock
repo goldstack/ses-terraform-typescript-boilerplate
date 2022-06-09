@@ -650,19 +650,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/infra-aws@npm:0.3.45":
-  version: 0.3.45
-  resolution: "@goldstack/infra-aws@npm:0.3.45"
+"@goldstack/infra-aws@npm:0.3.46":
+  version: 0.3.46
+  resolution: "@goldstack/infra-aws@npm:0.3.46"
   dependencies:
     "@goldstack/infra": 0.3.37
     "@goldstack/utils-config": 0.3.34
     "@goldstack/utils-log": 0.2.15
-    "@goldstack/utils-package": 0.3.39
+    "@goldstack/utils-package": 0.3.40
     "@goldstack/utils-sh": 0.4.32
     aws-sdk: 2.1055.0
     axios: 0.21.2
     handlebars: 4.7.7
-  checksum: fe84c3c98e2493d34d008587923e2f0ad699e858cd08531e91f55a204f720de8cc09e583f02121a3b0c7366efc1b29c5b32a88a6e6fa383d440c105c9cb2884d
+  checksum: 00d826ed5d0d2d7c03329b5fadabdb227c696bf1878ebdf9b123933d467e5d2d7380265dbf95ac0b8dcc5901056f147042e670c735dd7371c2dbc15851f50e41
   languageName: node
   linkType: hard
 
@@ -691,40 +691,40 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-email-send-cli@npm:0.4.5":
-  version: 0.4.5
-  resolution: "@goldstack/template-email-send-cli@npm:0.4.5"
+"@goldstack/template-email-send-cli@npm:0.4.6":
+  version: 0.4.6
+  resolution: "@goldstack/template-email-send-cli@npm:0.4.6"
   dependencies:
-    "@goldstack/template-email-send": 0.3.106
+    "@goldstack/template-email-send": 0.3.107
     "@goldstack/utils-cli": 0.2.14
-    "@goldstack/utils-package": 0.3.39
-    "@goldstack/utils-package-config": 0.3.40
-    "@goldstack/utils-terraform": 0.3.69
-    "@goldstack/utils-terraform-aws": 0.3.68
+    "@goldstack/utils-package": 0.3.40
+    "@goldstack/utils-package-config": 0.3.41
+    "@goldstack/utils-terraform": 0.3.70
+    "@goldstack/utils-terraform-aws": 0.3.69
     source-map-support: ^0.5.21
-    yargs: ^15.4.1
+    yargs: ^17.5.1
   bin:
     template: ./bin/template
     template-email-send: ./bin/template
-  checksum: a442c0913b3d75d8527d6ae903400d4f6cea029000d94cfda16652a07b21323d886255300d021a538192bc7cbb0d5ea6cb8ee2c3ef9ab6b113e24be89f65062b
+  checksum: c38a53376779f108f9190e081575e9c5447a880f291d938c38edf98997e88bbaf3250279889e884d0b2a3e19ec735700309e11308610656750acd792681fc261
   languageName: node
   linkType: hard
 
-"@goldstack/template-email-send@npm:0.3.106":
-  version: 0.3.106
-  resolution: "@goldstack/template-email-send@npm:0.3.106"
+"@goldstack/template-email-send@npm:0.3.107":
+  version: 0.3.107
+  resolution: "@goldstack/template-email-send@npm:0.3.107"
   dependencies:
     "@goldstack/infra": 0.3.37
-    "@goldstack/infra-aws": 0.3.45
+    "@goldstack/infra-aws": 0.3.46
     "@goldstack/utils-cli": 0.2.14
     "@goldstack/utils-esbuild": 0.4.2
-    "@goldstack/utils-package": 0.3.39
-    "@goldstack/utils-package-config-embedded": 0.4.3
-    "@goldstack/utils-terraform": 0.3.69
-    "@goldstack/utils-terraform-aws": 0.3.68
+    "@goldstack/utils-package": 0.3.40
+    "@goldstack/utils-package-config-embedded": 0.4.4
+    "@goldstack/utils-terraform": 0.3.70
+    "@goldstack/utils-terraform-aws": 0.3.69
     aws-sdk: 2.1055.0
     uuid: ^8.3.0
-  checksum: c4d97f67952da1049904c3b6d63a3dd859bff2546a8737eaf6079f2615426ffd3cf5d48206ebe57607ddb3a489dbf93dde16b4cd8a0c15eb4d2cf9e4e7a6826a
+  checksum: 45a7b47c7b4a5eb5b6e1647cceff3d56ae24603e08de109aeff2c98a6f122f171880eb031558f42fd77aa6e4b2d13e78d4492fd62e8f7f536e25bb1592fc541b
   languageName: node
   linkType: hard
 
@@ -782,38 +782,38 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/utils-package-config-embedded@npm:0.4.3":
-  version: 0.4.3
-  resolution: "@goldstack/utils-package-config-embedded@npm:0.4.3"
+"@goldstack/utils-package-config-embedded@npm:0.4.4":
+  version: 0.4.4
+  resolution: "@goldstack/utils-package-config-embedded@npm:0.4.4"
   dependencies:
     "@goldstack/infra": 0.3.37
     "@goldstack/utils-config": 0.3.34
-    "@goldstack/utils-package": 0.3.39
-  checksum: 0fb841d6323031e5650b0d8e301f644c11315e07d399fef77b88c8fb569662247033b0db57a963886a7229bdfa68a3793ae3e26695399f58f6fc5b591a855424
+    "@goldstack/utils-package": 0.3.40
+  checksum: caebaec7b4bdc42e6569b90c28151d2f98985b88d6f0b54684c62ebb229666ba3f9673df2e47719ac263f69cde25eb458c57b1f3ae9bfbf6f7feddf451b2ee12
   languageName: node
   linkType: hard
 
-"@goldstack/utils-package-config@npm:0.3.40":
+"@goldstack/utils-package-config@npm:0.3.41":
+  version: 0.3.41
+  resolution: "@goldstack/utils-package-config@npm:0.3.41"
+  dependencies:
+    "@goldstack/infra": 0.3.37
+    "@goldstack/utils-config": 0.3.34
+    "@goldstack/utils-package": 0.3.40
+    "@goldstack/utils-sh": 0.4.32
+  checksum: 67d43cb11ec4ff9c2946b6c1512011bd08c18aee6454a1a3e96f5bd7cb06847f6bd4bd8e6d6993374f6abd3243f5025abe01cbbab18f57e8a85e573a6e7510ed
+  languageName: node
+  linkType: hard
+
+"@goldstack/utils-package@npm:0.3.40":
   version: 0.3.40
-  resolution: "@goldstack/utils-package-config@npm:0.3.40"
-  dependencies:
-    "@goldstack/infra": 0.3.37
-    "@goldstack/utils-config": 0.3.34
-    "@goldstack/utils-package": 0.3.39
-    "@goldstack/utils-sh": 0.4.32
-  checksum: 41de29b44695a40afa7f1b1c9966883987f982c249e2769862ecede3070ce72e3b0385c8315110e72199051209aa018439cf62b477857c4602ce1297e9822026
-  languageName: node
-  linkType: hard
-
-"@goldstack/utils-package@npm:0.3.39":
-  version: 0.3.39
-  resolution: "@goldstack/utils-package@npm:0.3.39"
+  resolution: "@goldstack/utils-package@npm:0.3.40"
   dependencies:
     "@goldstack/infra": 0.3.37
     "@goldstack/utils-config": 0.3.34
     "@goldstack/utils-sh": 0.4.32
-    yargs: ^15.4.1
-  checksum: bae1a2e3df854e54a4e2277039b5164dca2e3a9d2d271d637c85088394aab19d852010e86ed79bf1072e3a71a80f7adb6ecc878d2241ebab22a081bedbce781d
+    yargs: ^17.5.1
+  checksum: 1cd5e21835f8205d7f3303a84662022f82d8f233a75f69b14b597b140f300f89f3af1847514f9fe07b98a61f02b5d515a8cd4ffec9d49a3cc88c9a6e26136b0f
   languageName: node
   linkType: hard
 
@@ -833,47 +833,48 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/utils-terraform-aws@npm:0.3.68":
-  version: 0.3.68
-  resolution: "@goldstack/utils-terraform-aws@npm:0.3.68"
+"@goldstack/utils-terraform-aws@npm:0.3.69":
+  version: 0.3.69
+  resolution: "@goldstack/utils-terraform-aws@npm:0.3.69"
   dependencies:
-    "@goldstack/infra-aws": 0.3.45
+    "@goldstack/infra-aws": 0.3.46
     "@goldstack/utils-config": 0.3.34
     "@goldstack/utils-log": 0.2.15
-    "@goldstack/utils-package": 0.3.39
+    "@goldstack/utils-package": 0.3.40
     "@goldstack/utils-sh": 0.4.32
-    "@goldstack/utils-terraform": 0.3.69
+    "@goldstack/utils-terraform": 0.3.70
     aws-sdk: 2.1055.0
-  checksum: 4eb533d0e3d97e837563f81ee35e4c1fb11934d1bcc8dc5d066ed5ddf041e1305e525aa10b732225c5e67f88a72017170376a76e5be0c09703f41dbcc03d5990
+  checksum: b65271fe2445101df81afa7974baf05a43140fbb6646c9a226fa87e3725f3ef47112b54966fe310543dbeafc0824fb1f311ab59b5a2f1afba1ef5398f33459d8
   languageName: node
   linkType: hard
 
-"@goldstack/utils-terraform@npm:0.3.69":
-  version: 0.3.69
-  resolution: "@goldstack/utils-terraform@npm:0.3.69"
+"@goldstack/utils-terraform@npm:0.3.70":
+  version: 0.3.70
+  resolution: "@goldstack/utils-terraform@npm:0.3.70"
   dependencies:
     "@goldstack/infra": 0.3.37
-    "@goldstack/infra-aws": 0.3.45
+    "@goldstack/infra-aws": 0.3.46
     "@goldstack/utils-config": 0.3.34
     "@goldstack/utils-docker": 0.3.39
     "@goldstack/utils-log": 0.2.15
-    "@goldstack/utils-package": 0.3.39
+    "@goldstack/utils-package": 0.3.40
     "@goldstack/utils-sh": 0.4.32
     json-stable-stringify: ^1.0.1
     prompt-sync: ^4.2.0
-    yargs: ^15.4.1
-  checksum: e9372c69de87805be28b2dbfb8e8983a07cfa14d3cae2d46acfcacb2974422a3b390e42f2fb8d71eec568144ff0372118d0b98bdc67501d49c7b0bd66ebb024f
+    yargs: ^17.5.1
+  checksum: be8f949d1d7b5afdfa0340eed6e7de83000c82be7c127183a7ab129c6502f9dc71fb650f19d3ad36e27fb3bbf1afea0a5c1192690a86839b1580f223d3ed61b2
   languageName: node
   linkType: hard
 
-"@goldstack/utils-typescript-references@npm:0.1.14":
-  version: 0.1.14
-  resolution: "@goldstack/utils-typescript-references@npm:0.1.14"
+"@goldstack/utils-typescript-references@npm:0.2.1":
+  version: 0.2.1
+  resolution: "@goldstack/utils-typescript-references@npm:0.2.1"
   dependencies:
     source-map-support: ^0.5.21
+    yargs: ^17.5.1
   bin:
     utils-typescript-references: ./bin/utils-typescript-references
-  checksum: c7bdfe24983bf0969c9707772c7e04a5d205f66700c84b6a009a1fe835e17eec6ba62ebf7c88b720582d2e9a565edeb12912ef494506edb6fa8a1d309fbcdcf5
+  checksum: 42f6ac9e4d6896ce39d2670d9edf05c12ec5399e02a637f5047371c3a22dd018fa73bce1e97772d39ff32ce143d9e0e2d568e2e58e436572675832b403f42d18
   languageName: node
   linkType: hard
 
@@ -2288,7 +2289,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"camelcase@npm:^5.0.0, camelcase@npm:^5.3.1":
+"camelcase@npm:^5.3.1":
   version: 5.3.1
   resolution: "camelcase@npm:5.3.1"
   checksum: e6effce26b9404e3c0f301498184f243811c30dfe6d0b9051863bd8e4034d09c8c2923794f280d6827e5aa055f6c434115ff97864a16a963366fb35fd673024b
@@ -2422,17 +2423,6 @@ __metadata:
     exit: 0.1.2
     glob: ^7.1.1
   checksum: c47cdbb3b87696e45cc07340e415b5863b20833ae8184ca8a0b1d732fbd908f6e6e13376e4a509685af1bc916afbb3e2a0adf1eec8797575eefe63c7bb516962
-  languageName: node
-  linkType: hard
-
-"cliui@npm:^6.0.0":
-  version: 6.0.0
-  resolution: "cliui@npm:6.0.0"
-  dependencies:
-    string-width: ^4.2.0
-    strip-ansi: ^6.0.0
-    wrap-ansi: ^6.2.0
-  checksum: 4fcfd26d292c9f00238117f39fc797608292ae36bac2168cfee4c85923817d0607fe21b3329a8621e01aedf512c99b7eaa60e363a671ffd378df6649fb48ae42
   languageName: node
   linkType: hard
 
@@ -2674,13 +2664,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"decamelize@npm:^1.2.0":
-  version: 1.2.0
-  resolution: "decamelize@npm:1.2.0"
-  checksum: ad8c51a7e7e0720c70ec2eeb1163b66da03e7616d7b98c9ef43cce2416395e84c1e9548dd94f5f6ffecfee9f8b94251fc57121a8b021f2ff2469b2bae247b8aa
-  languageName: node
-  linkType: hard
-
 "decompress-response@npm:^3.3.0":
   version: 3.3.0
   resolution: "decompress-response@npm:3.3.0"
@@ -2914,8 +2897,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "email-send-1@workspace:packages/email-send-1"
   dependencies:
-    "@goldstack/template-email-send": 0.3.106
-    "@goldstack/template-email-send-cli": 0.4.5
+    "@goldstack/template-email-send": 0.3.107
+    "@goldstack/template-email-send-cli": 0.4.6
     "@goldstack/utils-git": 0.1.35
     "@goldstack/utils-sh": 0.4.32
     "@types/jest": ^27.5.1
@@ -3660,7 +3643,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"get-caller-file@npm:^2.0.1, get-caller-file@npm:^2.0.5":
+"get-caller-file@npm:^2.0.5":
   version: 2.0.5
   resolution: "get-caller-file@npm:2.0.5"
   checksum: b9769a836d2a98c3ee734a88ba712e62703f1df31b94b784762c433c27a386dd6029ff55c2a920c392e33657d80191edbf18c61487e198844844516f843496b9
@@ -6013,7 +5996,7 @@ __metadata:
   resolution: "project-email-send@workspace:."
   dependencies:
     "@goldstack/nodemonx": 0.3.33
-    "@goldstack/utils-typescript-references": 0.1.14
+    "@goldstack/utils-typescript-references": 0.2.1
     "@types/jest": ^27.5.1
     "@types/node": ^17.0.33
     "@typescript-eslint/eslint-plugin": ^4.14.0
@@ -6280,13 +6263,6 @@ __metadata:
   version: 2.0.2
   resolution: "require-from-string@npm:2.0.2"
   checksum: a03ef6895445f33a4015300c426699bc66b2b044ba7b670aa238610381b56d3f07c686251740d575e22f4c87531ba662d06937508f0f3c0f1ddc04db3130560b
-  languageName: node
-  linkType: hard
-
-"require-main-filename@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "require-main-filename@npm:2.0.0"
-  checksum: e9e294695fea08b076457e9ddff854e81bffbe248ed34c1eec348b7abbd22a0d02e8d75506559e2265e96978f3c4720bd77a6dad84755de8162b357eb6c778c7
   languageName: node
   linkType: hard
 
@@ -7373,13 +7349,6 @@ typescript@^4.6.4:
   languageName: node
   linkType: hard
 
-"which-module@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "which-module@npm:2.0.0"
-  checksum: 809f7fd3dfcb2cdbe0180b60d68100c88785084f8f9492b0998c051d7a8efe56784492609d3f09ac161635b78ea29219eb1418a98c15ce87d085bce905705c9c
-  languageName: node
-  linkType: hard
-
 "which@npm:^2.0.1, which@npm:^2.0.2":
   version: 2.0.2
   resolution: "which@npm:2.0.2"
@@ -7420,17 +7389,6 @@ typescript@^4.6.4:
   version: 1.0.0
   resolution: "wordwrap@npm:1.0.0"
   checksum: 2a44b2788165d0a3de71fd517d4880a8e20ea3a82c080ce46e294f0b68b69a2e49cff5f99c600e275c698a90d12c5ea32aff06c311f0db2eb3f1201f3e7b2a04
-  languageName: node
-  linkType: hard
-
-"wrap-ansi@npm:^6.2.0":
-  version: 6.2.0
-  resolution: "wrap-ansi@npm:6.2.0"
-  dependencies:
-    ansi-styles: ^4.0.0
-    string-width: ^4.1.0
-    strip-ansi: ^6.0.0
-  checksum: 6cd96a410161ff617b63581a08376f0cb9162375adeb7956e10c8cd397821f7eb2a6de24eb22a0b28401300bf228c86e50617cd568209b5f6775b93c97d2fe3a
   languageName: node
   linkType: hard
 
@@ -7498,13 +7456,6 @@ typescript@^4.6.4:
   languageName: node
   linkType: hard
 
-"y18n@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "y18n@npm:4.0.0"
-  checksum: 66e22d38bf994723b625dcc0159f6fd4068c511f8c565df39e8aa53426f5f31e4a9664a8d7099fbde2c22a1c71be2cb60e83f4c2961a5ee48672418d825a7bc2
-  languageName: node
-  linkType: hard
-
 "y18n@npm:^5.0.5":
   version: 5.0.8
   resolution: "y18n@npm:5.0.8"
@@ -7516,16 +7467,6 @@ typescript@^4.6.4:
   version: 4.0.0
   resolution: "yallist@npm:4.0.0"
   checksum: 343617202af32df2a15a3be36a5a8c0c8545208f3d3dfbc6bb7c3e3b7e8c6f8e7485432e4f3b88da3031a6e20afa7c711eded32ddfb122896ac5d914e75848d5
-  languageName: node
-  linkType: hard
-
-"yargs-parser@npm:^18.1.2":
-  version: 18.1.3
-  resolution: "yargs-parser@npm:18.1.3"
-  dependencies:
-    camelcase: ^5.0.0
-    decamelize: ^1.2.0
-  checksum: 60e8c7d1b85814594d3719300ecad4e6ae3796748b0926137bfec1f3042581b8646d67e83c6fc80a692ef08b8390f21ddcacb9464476c39bbdf52e34961dd4d9
   languageName: node
   linkType: hard
 
@@ -7543,25 +7484,6 @@ typescript@^4.6.4:
   languageName: node
   linkType: hard
 
-"yargs@npm:^15.4.1":
-  version: 15.4.1
-  resolution: "yargs@npm:15.4.1"
-  dependencies:
-    cliui: ^6.0.0
-    decamelize: ^1.2.0
-    find-up: ^4.1.0
-    get-caller-file: ^2.0.1
-    require-directory: ^2.1.1
-    require-main-filename: ^2.0.0
-    set-blocking: ^2.0.0
-    string-width: ^4.2.0
-    which-module: ^2.0.0
-    y18n: ^4.0.0
-    yargs-parser: ^18.1.2
-  checksum: 40b974f508d8aed28598087720e086ecd32a5fd3e945e95ea4457da04ee9bdb8bdd17fd91acff36dc5b7f0595a735929c514c40c402416bbb87c03f6fb782373
-  languageName: node
-  linkType: hard
-
 "yargs@npm:^17.3.1":
   version: 17.5.0
   resolution: "yargs@npm:17.5.0"
@@ -7574,6 +7496,21 @@ typescript@^4.6.4:
     y18n: ^5.0.5
     yargs-parser: ^21.0.0
   checksum: e2c662a7a63aa125a162cc0d77e38bdfe2a0dd5121a0d485a464499cd7782c5198b57103aed4608df96a017d01cb6a834bc22d4a1f20b92649fa82983d53522b
+  languageName: node
+  linkType: hard
+
+"yargs@npm:^17.5.1":
+  version: 17.5.1
+  resolution: "yargs@npm:17.5.1"
+  dependencies:
+    cliui: ^7.0.2
+    escalade: ^3.1.1
+    get-caller-file: ^2.0.5
+    require-directory: ^2.1.1
+    string-width: ^4.2.3
+    y18n: ^5.0.5
+    yargs-parser: ^21.0.0
+  checksum: 00d58a2c052937fa044834313f07910fd0a115dec5ee35919e857eeee3736b21a4eafa8264535800ba8bac312991ce785ecb8a51f4d2cc8c4676d865af1cfbde
   languageName: node
   linkType: hard
 
