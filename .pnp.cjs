@@ -1111,10 +1111,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@goldstack/template-email-send", [\
-        ["npm:0.3.108", {\
-          "packageLocation": "./.yarn/cache/@goldstack-template-email-send-npm-0.3.108-f83c28f1aa-77ac0ed7aa.zip/node_modules/@goldstack/template-email-send/",\
+        ["npm:0.3.109", {\
+          "packageLocation": "./.yarn/cache/@goldstack-template-email-send-npm-0.3.109-5232527da4-40c82ced82.zip/node_modules/@goldstack/template-email-send/",\
           "packageDependencies": [\
-            ["@goldstack/template-email-send", "npm:0.3.108"],\
+            ["@goldstack/template-email-send", "npm:0.3.109"],\
             ["@goldstack/infra", "npm:0.3.38"],\
             ["@goldstack/infra-aws", "npm:0.3.47"],\
             ["@goldstack/utils-cli", "npm:0.2.15"],\
@@ -1130,11 +1130,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@goldstack/template-email-send-cli", [\
-        ["npm:0.4.8", {\
-          "packageLocation": "./.yarn/cache/@goldstack-template-email-send-cli-npm-0.4.8-03dcbe54db-e2628525ad.zip/node_modules/@goldstack/template-email-send-cli/",\
+        ["npm:0.4.9", {\
+          "packageLocation": "./.yarn/cache/@goldstack-template-email-send-cli-npm-0.4.9-62b4273e74-1b78af8556.zip/node_modules/@goldstack/template-email-send-cli/",\
           "packageDependencies": [\
-            ["@goldstack/template-email-send-cli", "npm:0.4.8"],\
-            ["@goldstack/template-email-send", "npm:0.3.108"],\
+            ["@goldstack/template-email-send-cli", "npm:0.4.9"],\
+            ["@goldstack/template-email-send", "npm:0.3.109"],\
             ["@goldstack/utils-cli", "npm:0.2.15"],\
             ["@goldstack/utils-package", "npm:0.3.41"],\
             ["@goldstack/utils-package-config", "npm:0.3.42"],\
@@ -3723,8 +3723,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./packages/email-send-1/",\
           "packageDependencies": [\
             ["email-send-1", "workspace:packages/email-send-1"],\
-            ["@goldstack/template-email-send", "npm:0.3.108"],\
-            ["@goldstack/template-email-send-cli", "npm:0.4.8"],\
+            ["@goldstack/template-email-send", "npm:0.3.109"],\
+            ["@goldstack/template-email-send-cli", "npm:0.4.9"],\
             ["@goldstack/utils-git", "npm:0.1.36"],\
             ["@goldstack/utils-sh", "npm:0.4.33"],\
             ["@types/jest", "npm:27.5.1"],\
@@ -3734,7 +3734,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["nodemon", "npm:2.0.15"],\
             ["rimraf", "npm:3.0.2"],\
             ["ts-jest", "virtual:544533a6a2a18f358a87d41e33a8a14953913ff6093adab6e4d09f7915754f0e23a12ef9f87ffb91c1aff2acac86f63748151edff4f36985ead1c3fd4fbd4969#npm:28.0.2"],\
-            ["ts-node", "virtual:544533a6a2a18f358a87d41e33a8a14953913ff6093adab6e4d09f7915754f0e23a12ef9f87ffb91c1aff2acac86f63748151edff4f36985ead1c3fd4fbd4969#npm:10.8.0"],\
+            ["ts-node", "virtual:544533a6a2a18f358a87d41e33a8a14953913ff6093adab6e4d09f7915754f0e23a12ef9f87ffb91c1aff2acac86f63748151edff4f36985ead1c3fd4fbd4969#npm:10.9.1"],\
             ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=7ad353"]\
           ],\
           "linkType": "SOFT"\
@@ -8402,17 +8402,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["ts-node", [\
-        ["npm:10.8.0", {\
-          "packageLocation": "./.yarn/cache/ts-node-npm-10.8.0-e60a0a9a4f-1c22dc8dd8.zip/node_modules/ts-node/",\
+        ["npm:10.9.1", {\
+          "packageLocation": "./.yarn/cache/ts-node-npm-10.9.1-6c268be7f4-090adff130.zip/node_modules/ts-node/",\
           "packageDependencies": [\
-            ["ts-node", "npm:10.8.0"]\
+            ["ts-node", "npm:10.9.1"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:544533a6a2a18f358a87d41e33a8a14953913ff6093adab6e4d09f7915754f0e23a12ef9f87ffb91c1aff2acac86f63748151edff4f36985ead1c3fd4fbd4969#npm:10.8.0", {\
-          "packageLocation": "./.yarn/__virtual__/ts-node-virtual-d36b6ea952/0/cache/ts-node-npm-10.8.0-e60a0a9a4f-1c22dc8dd8.zip/node_modules/ts-node/",\
+        ["virtual:544533a6a2a18f358a87d41e33a8a14953913ff6093adab6e4d09f7915754f0e23a12ef9f87ffb91c1aff2acac86f63748151edff4f36985ead1c3fd4fbd4969#npm:10.9.1", {\
+          "packageLocation": "./.yarn/__virtual__/ts-node-virtual-25e945da15/0/cache/ts-node-npm-10.9.1-6c268be7f4-090adff130.zip/node_modules/ts-node/",\
           "packageDependencies": [\
-            ["ts-node", "virtual:544533a6a2a18f358a87d41e33a8a14953913ff6093adab6e4d09f7915754f0e23a12ef9f87ffb91c1aff2acac86f63748151edff4f36985ead1c3fd4fbd4969#npm:10.8.0"],\
+            ["ts-node", "virtual:544533a6a2a18f358a87d41e33a8a14953913ff6093adab6e4d09f7915754f0e23a12ef9f87ffb91c1aff2acac86f63748151edff4f36985ead1c3fd4fbd4969#npm:10.9.1"],\
             ["@cspotcode/source-map-support", "npm:0.8.1"],\
             ["@swc/core", null],\
             ["@swc/wasm", null],\

@@ -691,11 +691,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-email-send-cli@npm:0.4.8":
-  version: 0.4.8
-  resolution: "@goldstack/template-email-send-cli@npm:0.4.8"
+"@goldstack/template-email-send-cli@npm:0.4.9":
+  version: 0.4.9
+  resolution: "@goldstack/template-email-send-cli@npm:0.4.9"
   dependencies:
-    "@goldstack/template-email-send": 0.3.108
+    "@goldstack/template-email-send": 0.3.109
     "@goldstack/utils-cli": 0.2.15
     "@goldstack/utils-package": 0.3.41
     "@goldstack/utils-package-config": 0.3.42
@@ -706,13 +706,13 @@ __metadata:
   bin:
     template: ./bin/template
     template-email-send: ./bin/template
-  checksum: e2628525ad995510e38b7ceaa0f3fe51eda7ae3a3e2655024c0dbeb95ac51bf8731b1975c00138d11e84236a75e45718ca3000c6bd47af178af2a7bf93ecb351
+  checksum: 1b78af855615e3233eb61eef0f3a5850bc42c16bd5788fddf98c1cebe83551925c3bfa8ecc73e086d29e069d65342608e65431ae8174f6665ddcc966eec62746
   languageName: node
   linkType: hard
 
-"@goldstack/template-email-send@npm:0.3.108":
-  version: 0.3.108
-  resolution: "@goldstack/template-email-send@npm:0.3.108"
+"@goldstack/template-email-send@npm:0.3.109":
+  version: 0.3.109
+  resolution: "@goldstack/template-email-send@npm:0.3.109"
   dependencies:
     "@goldstack/infra": 0.3.38
     "@goldstack/infra-aws": 0.3.47
@@ -724,7 +724,7 @@ __metadata:
     "@goldstack/utils-terraform-aws": 0.3.70
     aws-sdk: 2.1055.0
     uuid: ^8.3.0
-  checksum: 77ac0ed7aab3195776d1ea78a63e7a2b07d14146d4a25912f4afa0b6e9d6aefc1bc256cd7a42ba3381c087886a5bc98e227a4eee5acf4259e649cc2a40d401b1
+  checksum: 40c82ced82f5fe2d8d1962257fcee56ac6d2acf51a8789bfcee4cfc0d7ea05315077951a84b02547b7d27c34a82de026fb625e3e4778b650a96022587f6194f4
   languageName: node
   linkType: hard
 
@@ -2897,8 +2897,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "email-send-1@workspace:packages/email-send-1"
   dependencies:
-    "@goldstack/template-email-send": 0.3.108
-    "@goldstack/template-email-send-cli": 0.4.8
+    "@goldstack/template-email-send": 0.3.109
+    "@goldstack/template-email-send-cli": 0.4.9
     "@goldstack/utils-git": 0.1.36
     "@goldstack/utils-sh": 0.4.33
     "@types/jest": ^27.5.1
@@ -2908,7 +2908,7 @@ __metadata:
     nodemon: ^2.0.15
     rimraf: ^3.0.2
     ts-jest: ^28.0.2
-    ts-node: ^10.8.0
+    ts-node: ^10.9.1
     typescript: ^4.7.4
   languageName: unknown
   linkType: soft
@@ -7067,9 +7067,9 @@ resolve@^1.20.0:
   languageName: node
   linkType: hard
 
-"ts-node@npm:^10.8.0":
-  version: 10.8.0
-  resolution: "ts-node@npm:10.8.0"
+"ts-node@npm:^10.9.1":
+  version: 10.9.1
+  resolution: "ts-node@npm:10.9.1"
   dependencies:
     "@cspotcode/source-map-support": ^0.8.0
     "@tsconfig/node10": ^1.0.7
@@ -7101,7 +7101,7 @@ resolve@^1.20.0:
     ts-node-script: dist/bin-script.js
     ts-node-transpile-only: dist/bin-transpile.js
     ts-script: dist/bin-script-deprecated.js
-  checksum: 1c22dc8dd80d0ba4dd4250b82cc032b63f6fbe8c87f8197cef43e7f9e2d43f5b333b445ed712e3006e24119257b4bff2c46605f7da61ab6f5e9514885d296f0c
+  checksum: 090adff1302ab20bd3486e6b4799e90f97726ed39e02b39e566f8ab674fd5bd5f727f43615debbfc580d33c6d9d1c6b1b3ce7d8e3cca3e20530a145ffa232c35
   languageName: node
   linkType: hard
 
