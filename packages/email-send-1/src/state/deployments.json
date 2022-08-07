@@ -1,1 +1,6 @@
-[]
+[
+  {
+    "name": "prod",
+    "terraform": {}
+  }
+]
