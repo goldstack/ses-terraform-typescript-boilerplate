@@ -38,7 +38,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["@goldstack/nodemonx", "npm:0.4.1"],\
+            ["@goldstack/nodemonx", "npm:0.4.2"],\
             ["@goldstack/utils-typescript-references", "npm:0.3.1"],\
             ["@types/jest", "npm:28.1.8"],\
             ["@types/node", "npm:18.7.13"],\
@@ -1081,10 +1081,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@goldstack/infra-aws", [\
-        ["npm:0.4.1", {\
-          "packageLocation": "./.yarn/cache/@goldstack-infra-aws-npm-0.4.1-05374cb956-d84778a7e0.zip/node_modules/@goldstack/infra-aws/",\
+        ["npm:0.4.2", {\
+          "packageLocation": "./.yarn/cache/@goldstack-infra-aws-npm-0.4.2-36f890d8ab-cb94a6f65f.zip/node_modules/@goldstack/infra-aws/",\
           "packageDependencies": [\
-            ["@goldstack/infra-aws", "npm:0.4.1"],\
+            ["@goldstack/infra-aws", "npm:0.4.2"],\
             ["@goldstack/infra", "npm:0.4.1"],\
             ["@goldstack/utils-config", "npm:0.4.1"],\
             ["@goldstack/utils-log", "npm:0.3.1"],\
@@ -1098,31 +1098,31 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@goldstack/nodemonx", [\
-        ["npm:0.4.1", {\
-          "packageLocation": "./.yarn/cache/@goldstack-nodemonx-npm-0.4.1-c373db9d3b-fd7bdd5082.zip/node_modules/@goldstack/nodemonx/",\
+        ["npm:0.4.2", {\
+          "packageLocation": "./.yarn/cache/@goldstack-nodemonx-npm-0.4.2-a3f0fe562d-241bbfbd09.zip/node_modules/@goldstack/nodemonx/",\
           "packageDependencies": [\
-            ["@goldstack/nodemonx", "npm:0.4.1"],\
+            ["@goldstack/nodemonx", "npm:0.4.2"],\
             ["@goldstack/utils-log", "npm:0.3.1"],\
             ["@goldstack/utils-sh", "npm:0.5.1"],\
-            ["minimatch", "npm:3.0.4"],\
+            ["minimatch", "npm:5.1.0"],\
             ["node-watch", "npm:0.6.4"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@goldstack/template-email-send", [\
-        ["npm:0.4.1", {\
-          "packageLocation": "./.yarn/cache/@goldstack-template-email-send-npm-0.4.1-f8c467ce66-9ec812a9d1.zip/node_modules/@goldstack/template-email-send/",\
+        ["npm:0.4.2", {\
+          "packageLocation": "./.yarn/cache/@goldstack-template-email-send-npm-0.4.2-b53f429b17-298b277ec2.zip/node_modules/@goldstack/template-email-send/",\
           "packageDependencies": [\
-            ["@goldstack/template-email-send", "npm:0.4.1"],\
+            ["@goldstack/template-email-send", "npm:0.4.2"],\
             ["@goldstack/infra", "npm:0.4.1"],\
-            ["@goldstack/infra-aws", "npm:0.4.1"],\
+            ["@goldstack/infra-aws", "npm:0.4.2"],\
             ["@goldstack/utils-cli", "npm:0.3.1"],\
             ["@goldstack/utils-esbuild", "npm:0.5.1"],\
             ["@goldstack/utils-package", "npm:0.4.1"],\
             ["@goldstack/utils-package-config-embedded", "npm:0.5.1"],\
-            ["@goldstack/utils-terraform", "npm:0.4.1"],\
-            ["@goldstack/utils-terraform-aws", "npm:0.4.1"],\
+            ["@goldstack/utils-terraform", "npm:0.4.2"],\
+            ["@goldstack/utils-terraform-aws", "npm:0.4.2"],\
             ["aws-sdk", "npm:2.1055.0"],\
             ["uuid", "npm:8.3.0"]\
           ],\
@@ -1130,16 +1130,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@goldstack/template-email-send-cli", [\
-        ["npm:0.5.1", {\
-          "packageLocation": "./.yarn/cache/@goldstack-template-email-send-cli-npm-0.5.1-2213ac286c-94d827ce62.zip/node_modules/@goldstack/template-email-send-cli/",\
+        ["npm:0.5.2", {\
+          "packageLocation": "./.yarn/cache/@goldstack-template-email-send-cli-npm-0.5.2-5000802111-fb8bcdfc23.zip/node_modules/@goldstack/template-email-send-cli/",\
           "packageDependencies": [\
-            ["@goldstack/template-email-send-cli", "npm:0.5.1"],\
-            ["@goldstack/template-email-send", "npm:0.4.1"],\
+            ["@goldstack/template-email-send-cli", "npm:0.5.2"],\
+            ["@goldstack/template-email-send", "npm:0.4.2"],\
             ["@goldstack/utils-cli", "npm:0.3.1"],\
             ["@goldstack/utils-package", "npm:0.4.1"],\
             ["@goldstack/utils-package-config", "npm:0.4.1"],\
-            ["@goldstack/utils-terraform", "npm:0.4.1"],\
-            ["@goldstack/utils-terraform-aws", "npm:0.4.1"],\
+            ["@goldstack/utils-terraform", "npm:0.4.2"],\
+            ["@goldstack/utils-terraform-aws", "npm:0.4.2"],\
             ["source-map-support", "npm:0.5.21"],\
             ["yargs", "npm:17.5.1"]\
           ],\
@@ -1263,12 +1263,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@goldstack/utils-terraform", [\
-        ["npm:0.4.1", {\
-          "packageLocation": "./.yarn/cache/@goldstack-utils-terraform-npm-0.4.1-6005385b1c-b65fb1548a.zip/node_modules/@goldstack/utils-terraform/",\
+        ["npm:0.4.2", {\
+          "packageLocation": "./.yarn/cache/@goldstack-utils-terraform-npm-0.4.2-351a4b13ef-aa56ccff42.zip/node_modules/@goldstack/utils-terraform/",\
           "packageDependencies": [\
-            ["@goldstack/utils-terraform", "npm:0.4.1"],\
+            ["@goldstack/utils-terraform", "npm:0.4.2"],\
             ["@goldstack/infra", "npm:0.4.1"],\
-            ["@goldstack/infra-aws", "npm:0.4.1"],\
+            ["@goldstack/infra-aws", "npm:0.4.2"],\
             ["@goldstack/utils-config", "npm:0.4.1"],\
             ["@goldstack/utils-docker", "npm:0.4.1"],\
             ["@goldstack/utils-log", "npm:0.3.1"],\
@@ -1282,16 +1282,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@goldstack/utils-terraform-aws", [\
-        ["npm:0.4.1", {\
-          "packageLocation": "./.yarn/cache/@goldstack-utils-terraform-aws-npm-0.4.1-578896d864-965389e46d.zip/node_modules/@goldstack/utils-terraform-aws/",\
+        ["npm:0.4.2", {\
+          "packageLocation": "./.yarn/cache/@goldstack-utils-terraform-aws-npm-0.4.2-3dc37dabb7-b9d3648531.zip/node_modules/@goldstack/utils-terraform-aws/",\
           "packageDependencies": [\
-            ["@goldstack/utils-terraform-aws", "npm:0.4.1"],\
-            ["@goldstack/infra-aws", "npm:0.4.1"],\
+            ["@goldstack/utils-terraform-aws", "npm:0.4.2"],\
+            ["@goldstack/infra-aws", "npm:0.4.2"],\
             ["@goldstack/utils-config", "npm:0.4.1"],\
             ["@goldstack/utils-log", "npm:0.3.1"],\
             ["@goldstack/utils-package", "npm:0.4.1"],\
             ["@goldstack/utils-sh", "npm:0.5.1"],\
-            ["@goldstack/utils-terraform", "npm:0.4.1"],\
+            ["@goldstack/utils-terraform", "npm:0.4.2"],\
             ["aws-sdk", "npm:2.1055.0"]\
           ],\
           "linkType": "HARD"\
@@ -2852,6 +2852,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["concat-map", "npm:0.0.1"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:2.0.1", {\
+          "packageLocation": "./.yarn/cache/brace-expansion-npm-2.0.1-17aa2616f9-a61e7cd2e8.zip/node_modules/brace-expansion/",\
+          "packageDependencies": [\
+            ["brace-expansion", "npm:2.0.1"],\
+            ["balanced-match", "npm:1.0.0"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["braces", [\
@@ -3739,8 +3747,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./packages/email-send-1/",\
           "packageDependencies": [\
             ["email-send-1", "workspace:packages/email-send-1"],\
-            ["@goldstack/template-email-send", "npm:0.4.1"],\
-            ["@goldstack/template-email-send-cli", "npm:0.5.1"],\
+            ["@goldstack/template-email-send", "npm:0.4.2"],\
+            ["@goldstack/template-email-send-cli", "npm:0.5.2"],\
             ["@goldstack/utils-git", "npm:0.2.1"],\
             ["@goldstack/utils-sh", "npm:0.5.1"],\
             ["@types/jest", "npm:28.1.8"],\
@@ -6593,6 +6601,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["brace-expansion", "npm:1.1.11"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:5.1.0", {\
+          "packageLocation": "./.yarn/cache/minimatch-npm-5.1.0-34f6240621-15ce53d31a.zip/node_modules/minimatch/",\
+          "packageDependencies": [\
+            ["minimatch", "npm:5.1.0"],\
+            ["brace-expansion", "npm:2.0.1"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["minimist", [\
@@ -7285,7 +7301,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["project-email-send", "workspace:."],\
-            ["@goldstack/nodemonx", "npm:0.4.1"],\
+            ["@goldstack/nodemonx", "npm:0.4.2"],\
             ["@goldstack/utils-typescript-references", "npm:0.3.1"],\
             ["@types/jest", "npm:28.1.8"],\
             ["@types/node", "npm:18.7.13"],\
