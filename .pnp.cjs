@@ -1046,7 +1046,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@eslint-eslintrc-npm-0.4.3-ee1bbcab87-03a7704150.zip/node_modules/@eslint/eslintrc/",\
           "packageDependencies": [\
             ["@eslint/eslintrc", "npm:0.4.3"],\
-            ["ajv", "npm:6.12.5"],\
+            ["ajv", "npm:6.12.6"],\
             ["debug", "virtual:92a28e392bb7746809827b7e8ebf6aec49c5f04125481214ae6ea6f4de204344bcccbe5eb3a2f4388bb368cfa5d84f03ce0d8f32a9fcc3f5e92ea34723da1c56#npm:4.2.0"],\
             ["espree", "npm:7.3.1"],\
             ["globals", "npm:13.13.0"],\
@@ -1162,7 +1162,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@goldstack/utils-config", "npm:0.4.3"],\
             ["@goldstack/utils-log", "npm:0.3.3"],\
             ["@goldstack/utils-sh", "npm:0.5.3"],\
-            ["ajv", "npm:6.12.5"],\
+            ["ajv", "npm:6.12.6"],\
             ["handlebars", "npm:4.7.7"]\
           ],\
           "linkType": "HARD"\
@@ -2345,21 +2345,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["ajv", [\
-        ["npm:6.12.2", {\
-          "packageLocation": "./.yarn/cache/ajv-npm-6.12.2-7ff2bc9f1e-4a87256bbe.zip/node_modules/ajv/",\
+        ["npm:6.12.6", {\
+          "packageLocation": "./.yarn/cache/ajv-npm-6.12.6-4b5105e2b2-874972efe5.zip/node_modules/ajv/",\
           "packageDependencies": [\
-            ["ajv", "npm:6.12.2"],\
-            ["fast-deep-equal", "npm:3.1.3"],\
-            ["fast-json-stable-stringify", "npm:2.1.0"],\
-            ["json-schema-traverse", "npm:0.4.1"],\
-            ["uri-js", "npm:4.2.2"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
-        ["npm:6.12.5", {\
-          "packageLocation": "./.yarn/cache/ajv-npm-6.12.5-15b6d1a59d-12ff436e79.zip/node_modules/ajv/",\
-          "packageDependencies": [\
-            ["ajv", "npm:6.12.5"],\
+            ["ajv", "npm:6.12.6"],\
             ["fast-deep-equal", "npm:3.1.3"],\
             ["fast-json-stable-stringify", "npm:2.1.0"],\
             ["json-schema-traverse", "npm:0.4.1"],\
@@ -4015,7 +4004,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/code-frame", "npm:7.12.11"],\
             ["@eslint/eslintrc", "npm:0.4.3"],\
             ["@humanwhocodes/config-array", "npm:0.5.0"],\
-            ["ajv", "npm:6.12.2"],\
+            ["ajv", "npm:6.12.6"],\
             ["chalk", "npm:4.1.0"],\
             ["cross-spawn", "npm:7.0.3"],\
             ["debug", "virtual:92a28e392bb7746809827b7e8ebf6aec49c5f04125481214ae6ea6f4de204344bcccbe5eb3a2f4388bb368cfa5d84f03ce0d8f32a9fcc3f5e92ea34723da1c56#npm:4.2.0"],\
