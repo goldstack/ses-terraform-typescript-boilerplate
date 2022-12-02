@@ -682,11 +682,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-email-send-cli@npm:0.5.7":
-  version: 0.5.7
-  resolution: "@goldstack/template-email-send-cli@npm:0.5.7"
+"@goldstack/template-email-send-cli@npm:0.5.8":
+  version: 0.5.8
+  resolution: "@goldstack/template-email-send-cli@npm:0.5.8"
   dependencies:
-    "@goldstack/template-email-send": 0.4.7
+    "@goldstack/template-email-send": 0.4.8
     "@goldstack/utils-cli": 0.3.4
     "@goldstack/utils-package": 0.4.4
     "@goldstack/utils-package-config": 0.4.4
@@ -697,25 +697,25 @@ __metadata:
   bin:
     template: ./bin/template
     template-email-send: ./bin/template
-  checksum: f8fdd08841c049dca41df3cea48becd40baca0179f285ab7367115476f18aac39cdcd9ab6a09ec9c3fd8ce0fb4d21a1596fbc69ef8783108de91bc23c6834a33
+  checksum: c0a91e0ebb729b46137003019cfc7477b94199dbd43dd6f1aad29b13c13bdd8b248193f6735895ac98d43774f5a61c86b25966349ed41b4e5daba3579ca24f7e
   languageName: node
   linkType: hard
 
-"@goldstack/template-email-send@npm:0.4.7":
-  version: 0.4.7
-  resolution: "@goldstack/template-email-send@npm:0.4.7"
+"@goldstack/template-email-send@npm:0.4.8":
+  version: 0.4.8
+  resolution: "@goldstack/template-email-send@npm:0.4.8"
   dependencies:
     "@goldstack/infra": 0.4.4
     "@goldstack/infra-aws": 0.4.7
     "@goldstack/utils-cli": 0.3.4
     "@goldstack/utils-esbuild": 0.5.4
     "@goldstack/utils-package": 0.4.4
-    "@goldstack/utils-package-config-embedded": 0.5.4
+    "@goldstack/utils-package-config-embedded": 0.5.5
     "@goldstack/utils-terraform": 0.4.7
     "@goldstack/utils-terraform-aws": 0.4.7
     aws-sdk: ^2.1222.0
     uuid: ^8.3.0
-  checksum: 34267e82f9813794419b1a688ddd54b83554eecb8989e220ba6017adee0f82d32fe313898a97c8b8af579aca6053e470f7159d4414269522484d207e72416972
+  checksum: 56f91ec50c7d2dfe28633f4b67db327f23b779b07196a4c472502418d5a049a6d7eb66909453cc078c9d3a0d6664b5404f6242fd6f9c513ec4e4c26fd4644035
   languageName: node
   linkType: hard
 
@@ -773,14 +773,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/utils-package-config-embedded@npm:0.5.4":
-  version: 0.5.4
-  resolution: "@goldstack/utils-package-config-embedded@npm:0.5.4"
+"@goldstack/utils-package-config-embedded@npm:0.5.5":
+  version: 0.5.5
+  resolution: "@goldstack/utils-package-config-embedded@npm:0.5.5"
   dependencies:
     "@goldstack/infra": 0.4.4
     "@goldstack/utils-config": 0.4.4
     "@goldstack/utils-package": 0.4.4
-  checksum: ceedc9c9e57b47477f53fe491b412a56781790a4e62eac7d900fb7fb08afc85b7617a6929beaf889050b0cd8acbc75548f2814ee604e249bb67aa379fe88e819
+  checksum: 54ad7f74561e0ce32ed9f1505845ce3281596ab5ee5faa3ec231a1661d21de30e8353e818fa7ef5ebbaeb21be7010e92691f62fd71429ea9d741e759b2ecf3a6
   languageName: node
   linkType: hard
 
@@ -2800,8 +2800,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "email-send-1@workspace:packages/email-send-1"
   dependencies:
-    "@goldstack/template-email-send": 0.4.7
-    "@goldstack/template-email-send-cli": 0.5.7
+    "@goldstack/template-email-send": 0.4.8
+    "@goldstack/template-email-send-cli": 0.5.8
     "@goldstack/utils-git": 0.2.4
     "@goldstack/utils-sh": 0.5.4
     "@types/jest": ^29.0.1
