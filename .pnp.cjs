@@ -62,6 +62,600 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@aws-crypto/crc32", [\
+      ["npm:3.0.0", {\
+        "packageLocation": "./.yarn/cache/@aws-crypto-crc32-npm-3.0.0-10d83e85b0-672d593fd9.zip/node_modules/@aws-crypto/crc32/",\
+        "packageDependencies": [\
+          ["@aws-crypto/crc32", "npm:3.0.0"],\
+          ["@aws-crypto/util", "npm:3.0.0"],\
+          ["@aws-sdk/types", "npm:3.468.0"],\
+          ["tslib", "npm:1.14.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@aws-crypto/ie11-detection", [\
+      ["npm:3.0.0", {\
+        "packageLocation": "./.yarn/cache/@aws-crypto-ie11-detection-npm-3.0.0-71f24dcf6a-f5aee4a11a.zip/node_modules/@aws-crypto/ie11-detection/",\
+        "packageDependencies": [\
+          ["@aws-crypto/ie11-detection", "npm:3.0.0"],\
+          ["tslib", "npm:1.14.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@aws-crypto/sha256-browser", [\
+      ["npm:3.0.0", {\
+        "packageLocation": "./.yarn/cache/@aws-crypto-sha256-browser-npm-3.0.0-467f48a447-4e075906c4.zip/node_modules/@aws-crypto/sha256-browser/",\
+        "packageDependencies": [\
+          ["@aws-crypto/sha256-browser", "npm:3.0.0"],\
+          ["@aws-crypto/ie11-detection", "npm:3.0.0"],\
+          ["@aws-crypto/sha256-js", "npm:3.0.0"],\
+          ["@aws-crypto/supports-web-crypto", "npm:3.0.0"],\
+          ["@aws-crypto/util", "npm:3.0.0"],\
+          ["@aws-sdk/types", "npm:3.468.0"],\
+          ["@aws-sdk/util-locate-window", "npm:3.465.0"],\
+          ["@aws-sdk/util-utf8-browser", "npm:3.259.0"],\
+          ["tslib", "npm:1.14.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@aws-crypto/sha256-js", [\
+      ["npm:3.0.0", {\
+        "packageLocation": "./.yarn/cache/@aws-crypto-sha256-js-npm-3.0.0-2ba1013fd6-f9fc2d5163.zip/node_modules/@aws-crypto/sha256-js/",\
+        "packageDependencies": [\
+          ["@aws-crypto/sha256-js", "npm:3.0.0"],\
+          ["@aws-crypto/util", "npm:3.0.0"],\
+          ["@aws-sdk/types", "npm:3.468.0"],\
+          ["tslib", "npm:1.14.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@aws-crypto/supports-web-crypto", [\
+      ["npm:3.0.0", {\
+        "packageLocation": "./.yarn/cache/@aws-crypto-supports-web-crypto-npm-3.0.0-55222d294a-8a48788d28.zip/node_modules/@aws-crypto/supports-web-crypto/",\
+        "packageDependencies": [\
+          ["@aws-crypto/supports-web-crypto", "npm:3.0.0"],\
+          ["tslib", "npm:1.14.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@aws-crypto/util", [\
+      ["npm:3.0.0", {\
+        "packageLocation": "./.yarn/cache/@aws-crypto-util-npm-3.0.0-6c4b38c78e-92c835b83d.zip/node_modules/@aws-crypto/util/",\
+        "packageDependencies": [\
+          ["@aws-crypto/util", "npm:3.0.0"],\
+          ["@aws-sdk/types", "npm:3.468.0"],\
+          ["@aws-sdk/util-utf8-browser", "npm:3.259.0"],\
+          ["tslib", "npm:1.14.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@aws-sdk/client-cognito-identity", [\
+      ["npm:3.484.0", {\
+        "packageLocation": "./.yarn/cache/@aws-sdk-client-cognito-identity-npm-3.484.0-827d4baaee-7065f43179.zip/node_modules/@aws-sdk/client-cognito-identity/",\
+        "packageDependencies": [\
+          ["@aws-sdk/client-cognito-identity", "npm:3.484.0"],\
+          ["@aws-crypto/sha256-browser", "npm:3.0.0"],\
+          ["@aws-crypto/sha256-js", "npm:3.0.0"],\
+          ["@aws-sdk/client-sts", "npm:3.484.0"],\
+          ["@aws-sdk/core", "npm:3.481.0"],\
+          ["@aws-sdk/credential-provider-node", "npm:3.484.0"],\
+          ["@aws-sdk/middleware-host-header", "npm:3.468.0"],\
+          ["@aws-sdk/middleware-logger", "npm:3.468.0"],\
+          ["@aws-sdk/middleware-recursion-detection", "npm:3.468.0"],\
+          ["@aws-sdk/middleware-signing", "npm:3.468.0"],\
+          ["@aws-sdk/middleware-user-agent", "npm:3.478.0"],\
+          ["@aws-sdk/region-config-resolver", "npm:3.484.0"],\
+          ["@aws-sdk/types", "npm:3.468.0"],\
+          ["@aws-sdk/util-endpoints", "npm:3.478.0"],\
+          ["@aws-sdk/util-user-agent-browser", "npm:3.468.0"],\
+          ["@aws-sdk/util-user-agent-node", "virtual:f5e5a564ba918754c8b3b080eb29a2688af35b9c1a773de63eb148390564369a40f304a7384da1d22d51cb840254882c972d18d82a96c4804ada9a0446f624d6#npm:3.470.0"],\
+          ["@smithy/config-resolver", "npm:2.0.23"],\
+          ["@smithy/core", "npm:1.2.2"],\
+          ["@smithy/fetch-http-handler", "npm:2.3.2"],\
+          ["@smithy/hash-node", "npm:2.0.18"],\
+          ["@smithy/invalid-dependency", "npm:2.0.16"],\
+          ["@smithy/middleware-content-length", "npm:2.0.18"],\
+          ["@smithy/middleware-endpoint", "npm:2.3.0"],\
+          ["@smithy/middleware-retry", "npm:2.0.26"],\
+          ["@smithy/middleware-serde", "npm:2.0.16"],\
+          ["@smithy/middleware-stack", "npm:2.0.10"],\
+          ["@smithy/node-config-provider", "npm:2.1.9"],\
+          ["@smithy/node-http-handler", "npm:2.2.2"],\
+          ["@smithy/protocol-http", "npm:3.0.12"],\
+          ["@smithy/smithy-client", "npm:2.2.1"],\
+          ["@smithy/types", "npm:2.8.0"],\
+          ["@smithy/url-parser", "npm:2.0.16"],\
+          ["@smithy/util-base64", "npm:2.0.1"],\
+          ["@smithy/util-body-length-browser", "npm:2.0.1"],\
+          ["@smithy/util-body-length-node", "npm:2.1.0"],\
+          ["@smithy/util-defaults-mode-browser", "npm:2.0.24"],\
+          ["@smithy/util-defaults-mode-node", "npm:2.0.32"],\
+          ["@smithy/util-endpoints", "npm:1.0.8"],\
+          ["@smithy/util-retry", "npm:2.0.9"],\
+          ["@smithy/util-utf8", "npm:2.0.2"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@aws-sdk/client-sso", [\
+      ["npm:3.484.0", {\
+        "packageLocation": "./.yarn/cache/@aws-sdk-client-sso-npm-3.484.0-f5e5a564ba-2a63f49f74.zip/node_modules/@aws-sdk/client-sso/",\
+        "packageDependencies": [\
+          ["@aws-sdk/client-sso", "npm:3.484.0"],\
+          ["@aws-crypto/sha256-browser", "npm:3.0.0"],\
+          ["@aws-crypto/sha256-js", "npm:3.0.0"],\
+          ["@aws-sdk/core", "npm:3.481.0"],\
+          ["@aws-sdk/middleware-host-header", "npm:3.468.0"],\
+          ["@aws-sdk/middleware-logger", "npm:3.468.0"],\
+          ["@aws-sdk/middleware-recursion-detection", "npm:3.468.0"],\
+          ["@aws-sdk/middleware-user-agent", "npm:3.478.0"],\
+          ["@aws-sdk/region-config-resolver", "npm:3.484.0"],\
+          ["@aws-sdk/types", "npm:3.468.0"],\
+          ["@aws-sdk/util-endpoints", "npm:3.478.0"],\
+          ["@aws-sdk/util-user-agent-browser", "npm:3.468.0"],\
+          ["@aws-sdk/util-user-agent-node", "virtual:f5e5a564ba918754c8b3b080eb29a2688af35b9c1a773de63eb148390564369a40f304a7384da1d22d51cb840254882c972d18d82a96c4804ada9a0446f624d6#npm:3.470.0"],\
+          ["@smithy/config-resolver", "npm:2.0.23"],\
+          ["@smithy/core", "npm:1.2.2"],\
+          ["@smithy/fetch-http-handler", "npm:2.3.2"],\
+          ["@smithy/hash-node", "npm:2.0.18"],\
+          ["@smithy/invalid-dependency", "npm:2.0.16"],\
+          ["@smithy/middleware-content-length", "npm:2.0.18"],\
+          ["@smithy/middleware-endpoint", "npm:2.3.0"],\
+          ["@smithy/middleware-retry", "npm:2.0.26"],\
+          ["@smithy/middleware-serde", "npm:2.0.16"],\
+          ["@smithy/middleware-stack", "npm:2.0.10"],\
+          ["@smithy/node-config-provider", "npm:2.1.9"],\
+          ["@smithy/node-http-handler", "npm:2.2.2"],\
+          ["@smithy/protocol-http", "npm:3.0.12"],\
+          ["@smithy/smithy-client", "npm:2.2.1"],\
+          ["@smithy/types", "npm:2.8.0"],\
+          ["@smithy/url-parser", "npm:2.0.16"],\
+          ["@smithy/util-base64", "npm:2.0.1"],\
+          ["@smithy/util-body-length-browser", "npm:2.0.1"],\
+          ["@smithy/util-body-length-node", "npm:2.1.0"],\
+          ["@smithy/util-defaults-mode-browser", "npm:2.0.24"],\
+          ["@smithy/util-defaults-mode-node", "npm:2.0.32"],\
+          ["@smithy/util-endpoints", "npm:1.0.8"],\
+          ["@smithy/util-retry", "npm:2.0.9"],\
+          ["@smithy/util-utf8", "npm:2.0.2"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@aws-sdk/client-sts", [\
+      ["npm:3.484.0", {\
+        "packageLocation": "./.yarn/cache/@aws-sdk-client-sts-npm-3.484.0-5ea7bc6077-3d81f5b9cc.zip/node_modules/@aws-sdk/client-sts/",\
+        "packageDependencies": [\
+          ["@aws-sdk/client-sts", "npm:3.484.0"],\
+          ["@aws-crypto/sha256-browser", "npm:3.0.0"],\
+          ["@aws-crypto/sha256-js", "npm:3.0.0"],\
+          ["@aws-sdk/core", "npm:3.481.0"],\
+          ["@aws-sdk/credential-provider-node", "npm:3.484.0"],\
+          ["@aws-sdk/middleware-host-header", "npm:3.468.0"],\
+          ["@aws-sdk/middleware-logger", "npm:3.468.0"],\
+          ["@aws-sdk/middleware-recursion-detection", "npm:3.468.0"],\
+          ["@aws-sdk/middleware-user-agent", "npm:3.478.0"],\
+          ["@aws-sdk/region-config-resolver", "npm:3.484.0"],\
+          ["@aws-sdk/types", "npm:3.468.0"],\
+          ["@aws-sdk/util-endpoints", "npm:3.478.0"],\
+          ["@aws-sdk/util-user-agent-browser", "npm:3.468.0"],\
+          ["@aws-sdk/util-user-agent-node", "virtual:f5e5a564ba918754c8b3b080eb29a2688af35b9c1a773de63eb148390564369a40f304a7384da1d22d51cb840254882c972d18d82a96c4804ada9a0446f624d6#npm:3.470.0"],\
+          ["@smithy/config-resolver", "npm:2.0.23"],\
+          ["@smithy/core", "npm:1.2.2"],\
+          ["@smithy/fetch-http-handler", "npm:2.3.2"],\
+          ["@smithy/hash-node", "npm:2.0.18"],\
+          ["@smithy/invalid-dependency", "npm:2.0.16"],\
+          ["@smithy/middleware-content-length", "npm:2.0.18"],\
+          ["@smithy/middleware-endpoint", "npm:2.3.0"],\
+          ["@smithy/middleware-retry", "npm:2.0.26"],\
+          ["@smithy/middleware-serde", "npm:2.0.16"],\
+          ["@smithy/middleware-stack", "npm:2.0.10"],\
+          ["@smithy/node-config-provider", "npm:2.1.9"],\
+          ["@smithy/node-http-handler", "npm:2.2.2"],\
+          ["@smithy/protocol-http", "npm:3.0.12"],\
+          ["@smithy/smithy-client", "npm:2.2.1"],\
+          ["@smithy/types", "npm:2.8.0"],\
+          ["@smithy/url-parser", "npm:2.0.16"],\
+          ["@smithy/util-base64", "npm:2.0.1"],\
+          ["@smithy/util-body-length-browser", "npm:2.0.1"],\
+          ["@smithy/util-body-length-node", "npm:2.1.0"],\
+          ["@smithy/util-defaults-mode-browser", "npm:2.0.24"],\
+          ["@smithy/util-defaults-mode-node", "npm:2.0.32"],\
+          ["@smithy/util-endpoints", "npm:1.0.8"],\
+          ["@smithy/util-middleware", "npm:2.0.9"],\
+          ["@smithy/util-retry", "npm:2.0.9"],\
+          ["@smithy/util-utf8", "npm:2.0.2"],\
+          ["fast-xml-parser", "npm:4.2.5"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@aws-sdk/core", [\
+      ["npm:3.481.0", {\
+        "packageLocation": "./.yarn/cache/@aws-sdk-core-npm-3.481.0-26466cae44-0bc324627f.zip/node_modules/@aws-sdk/core/",\
+        "packageDependencies": [\
+          ["@aws-sdk/core", "npm:3.481.0"],\
+          ["@smithy/core", "npm:1.2.2"],\
+          ["@smithy/protocol-http", "npm:3.0.12"],\
+          ["@smithy/signature-v4", "npm:2.0.19"],\
+          ["@smithy/smithy-client", "npm:2.2.1"],\
+          ["@smithy/types", "npm:2.8.0"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@aws-sdk/credential-provider-cognito-identity", [\
+      ["npm:3.484.0", {\
+        "packageLocation": "./.yarn/cache/@aws-sdk-credential-provider-cognito-identity-npm-3.484.0-482426139f-3796f18c91.zip/node_modules/@aws-sdk/credential-provider-cognito-identity/",\
+        "packageDependencies": [\
+          ["@aws-sdk/credential-provider-cognito-identity", "npm:3.484.0"],\
+          ["@aws-sdk/client-cognito-identity", "npm:3.484.0"],\
+          ["@aws-sdk/types", "npm:3.468.0"],\
+          ["@smithy/property-provider", "npm:2.0.17"],\
+          ["@smithy/types", "npm:2.8.0"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@aws-sdk/credential-provider-env", [\
+      ["npm:3.468.0", {\
+        "packageLocation": "./.yarn/cache/@aws-sdk-credential-provider-env-npm-3.468.0-c10d791ad8-5e8fe5c7a9.zip/node_modules/@aws-sdk/credential-provider-env/",\
+        "packageDependencies": [\
+          ["@aws-sdk/credential-provider-env", "npm:3.468.0"],\
+          ["@aws-sdk/types", "npm:3.468.0"],\
+          ["@smithy/property-provider", "npm:2.0.17"],\
+          ["@smithy/types", "npm:2.8.0"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@aws-sdk/credential-provider-http", [\
+      ["npm:3.481.0", {\
+        "packageLocation": "./.yarn/cache/@aws-sdk-credential-provider-http-npm-3.481.0-7ed4b9bc6c-99a1f2bad9.zip/node_modules/@aws-sdk/credential-provider-http/",\
+        "packageDependencies": [\
+          ["@aws-sdk/credential-provider-http", "npm:3.481.0"],\
+          ["@aws-sdk/types", "npm:3.468.0"],\
+          ["@smithy/fetch-http-handler", "npm:2.3.2"],\
+          ["@smithy/node-http-handler", "npm:2.2.2"],\
+          ["@smithy/property-provider", "npm:2.0.17"],\
+          ["@smithy/protocol-http", "npm:3.0.12"],\
+          ["@smithy/smithy-client", "npm:2.2.1"],\
+          ["@smithy/types", "npm:2.8.0"],\
+          ["@smithy/util-stream", "npm:2.0.24"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@aws-sdk/credential-provider-ini", [\
+      ["npm:3.484.0", {\
+        "packageLocation": "./.yarn/cache/@aws-sdk-credential-provider-ini-npm-3.484.0-1ac0286a6e-0c5440bc8f.zip/node_modules/@aws-sdk/credential-provider-ini/",\
+        "packageDependencies": [\
+          ["@aws-sdk/credential-provider-ini", "npm:3.484.0"],\
+          ["@aws-sdk/credential-provider-env", "npm:3.468.0"],\
+          ["@aws-sdk/credential-provider-process", "npm:3.468.0"],\
+          ["@aws-sdk/credential-provider-sso", "npm:3.484.0"],\
+          ["@aws-sdk/credential-provider-web-identity", "npm:3.468.0"],\
+          ["@aws-sdk/types", "npm:3.468.0"],\
+          ["@smithy/credential-provider-imds", "npm:2.1.5"],\
+          ["@smithy/property-provider", "npm:2.0.17"],\
+          ["@smithy/shared-ini-file-loader", "npm:2.2.8"],\
+          ["@smithy/types", "npm:2.8.0"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@aws-sdk/credential-provider-node", [\
+      ["npm:3.484.0", {\
+        "packageLocation": "./.yarn/cache/@aws-sdk-credential-provider-node-npm-3.484.0-34d535702b-cdbe0b61b8.zip/node_modules/@aws-sdk/credential-provider-node/",\
+        "packageDependencies": [\
+          ["@aws-sdk/credential-provider-node", "npm:3.484.0"],\
+          ["@aws-sdk/credential-provider-env", "npm:3.468.0"],\
+          ["@aws-sdk/credential-provider-ini", "npm:3.484.0"],\
+          ["@aws-sdk/credential-provider-process", "npm:3.468.0"],\
+          ["@aws-sdk/credential-provider-sso", "npm:3.484.0"],\
+          ["@aws-sdk/credential-provider-web-identity", "npm:3.468.0"],\
+          ["@aws-sdk/types", "npm:3.468.0"],\
+          ["@smithy/credential-provider-imds", "npm:2.1.5"],\
+          ["@smithy/property-provider", "npm:2.0.17"],\
+          ["@smithy/shared-ini-file-loader", "npm:2.2.8"],\
+          ["@smithy/types", "npm:2.8.0"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@aws-sdk/credential-provider-process", [\
+      ["npm:3.468.0", {\
+        "packageLocation": "./.yarn/cache/@aws-sdk-credential-provider-process-npm-3.468.0-b7b56db295-7a345716ac.zip/node_modules/@aws-sdk/credential-provider-process/",\
+        "packageDependencies": [\
+          ["@aws-sdk/credential-provider-process", "npm:3.468.0"],\
+          ["@aws-sdk/types", "npm:3.468.0"],\
+          ["@smithy/property-provider", "npm:2.0.17"],\
+          ["@smithy/shared-ini-file-loader", "npm:2.2.8"],\
+          ["@smithy/types", "npm:2.8.0"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@aws-sdk/credential-provider-sso", [\
+      ["npm:3.484.0", {\
+        "packageLocation": "./.yarn/cache/@aws-sdk-credential-provider-sso-npm-3.484.0-716e7ba5ab-e6b1a40862.zip/node_modules/@aws-sdk/credential-provider-sso/",\
+        "packageDependencies": [\
+          ["@aws-sdk/credential-provider-sso", "npm:3.484.0"],\
+          ["@aws-sdk/client-sso", "npm:3.484.0"],\
+          ["@aws-sdk/token-providers", "npm:3.484.0"],\
+          ["@aws-sdk/types", "npm:3.468.0"],\
+          ["@smithy/property-provider", "npm:2.0.17"],\
+          ["@smithy/shared-ini-file-loader", "npm:2.2.8"],\
+          ["@smithy/types", "npm:2.8.0"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@aws-sdk/credential-provider-web-identity", [\
+      ["npm:3.468.0", {\
+        "packageLocation": "./.yarn/cache/@aws-sdk-credential-provider-web-identity-npm-3.468.0-27b7ef7b56-a5fac59563.zip/node_modules/@aws-sdk/credential-provider-web-identity/",\
+        "packageDependencies": [\
+          ["@aws-sdk/credential-provider-web-identity", "npm:3.468.0"],\
+          ["@aws-sdk/types", "npm:3.468.0"],\
+          ["@smithy/property-provider", "npm:2.0.17"],\
+          ["@smithy/types", "npm:2.8.0"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@aws-sdk/credential-providers", [\
+      ["npm:3.484.0", {\
+        "packageLocation": "./.yarn/cache/@aws-sdk-credential-providers-npm-3.484.0-60ea8761fd-0d103395f6.zip/node_modules/@aws-sdk/credential-providers/",\
+        "packageDependencies": [\
+          ["@aws-sdk/credential-providers", "npm:3.484.0"],\
+          ["@aws-sdk/client-cognito-identity", "npm:3.484.0"],\
+          ["@aws-sdk/client-sso", "npm:3.484.0"],\
+          ["@aws-sdk/client-sts", "npm:3.484.0"],\
+          ["@aws-sdk/credential-provider-cognito-identity", "npm:3.484.0"],\
+          ["@aws-sdk/credential-provider-env", "npm:3.468.0"],\
+          ["@aws-sdk/credential-provider-http", "npm:3.481.0"],\
+          ["@aws-sdk/credential-provider-ini", "npm:3.484.0"],\
+          ["@aws-sdk/credential-provider-node", "npm:3.484.0"],\
+          ["@aws-sdk/credential-provider-process", "npm:3.468.0"],\
+          ["@aws-sdk/credential-provider-sso", "npm:3.484.0"],\
+          ["@aws-sdk/credential-provider-web-identity", "npm:3.468.0"],\
+          ["@aws-sdk/types", "npm:3.468.0"],\
+          ["@smithy/credential-provider-imds", "npm:2.1.5"],\
+          ["@smithy/property-provider", "npm:2.0.17"],\
+          ["@smithy/types", "npm:2.8.0"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@aws-sdk/middleware-host-header", [\
+      ["npm:3.468.0", {\
+        "packageLocation": "./.yarn/cache/@aws-sdk-middleware-host-header-npm-3.468.0-553e3b4841-d511dea932.zip/node_modules/@aws-sdk/middleware-host-header/",\
+        "packageDependencies": [\
+          ["@aws-sdk/middleware-host-header", "npm:3.468.0"],\
+          ["@aws-sdk/types", "npm:3.468.0"],\
+          ["@smithy/protocol-http", "npm:3.0.12"],\
+          ["@smithy/types", "npm:2.8.0"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@aws-sdk/middleware-logger", [\
+      ["npm:3.468.0", {\
+        "packageLocation": "./.yarn/cache/@aws-sdk-middleware-logger-npm-3.468.0-772d7d281b-75dba345d9.zip/node_modules/@aws-sdk/middleware-logger/",\
+        "packageDependencies": [\
+          ["@aws-sdk/middleware-logger", "npm:3.468.0"],\
+          ["@aws-sdk/types", "npm:3.468.0"],\
+          ["@smithy/types", "npm:2.8.0"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@aws-sdk/middleware-recursion-detection", [\
+      ["npm:3.468.0", {\
+        "packageLocation": "./.yarn/cache/@aws-sdk-middleware-recursion-detection-npm-3.468.0-bb4bb98493-490855cfde.zip/node_modules/@aws-sdk/middleware-recursion-detection/",\
+        "packageDependencies": [\
+          ["@aws-sdk/middleware-recursion-detection", "npm:3.468.0"],\
+          ["@aws-sdk/types", "npm:3.468.0"],\
+          ["@smithy/protocol-http", "npm:3.0.12"],\
+          ["@smithy/types", "npm:2.8.0"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@aws-sdk/middleware-signing", [\
+      ["npm:3.468.0", {\
+        "packageLocation": "./.yarn/cache/@aws-sdk-middleware-signing-npm-3.468.0-494dad0053-e14d0ace15.zip/node_modules/@aws-sdk/middleware-signing/",\
+        "packageDependencies": [\
+          ["@aws-sdk/middleware-signing", "npm:3.468.0"],\
+          ["@aws-sdk/types", "npm:3.468.0"],\
+          ["@smithy/property-provider", "npm:2.0.17"],\
+          ["@smithy/protocol-http", "npm:3.0.12"],\
+          ["@smithy/signature-v4", "npm:2.0.19"],\
+          ["@smithy/types", "npm:2.8.0"],\
+          ["@smithy/util-middleware", "npm:2.0.9"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@aws-sdk/middleware-user-agent", [\
+      ["npm:3.478.0", {\
+        "packageLocation": "./.yarn/cache/@aws-sdk-middleware-user-agent-npm-3.478.0-539de2616b-884b801535.zip/node_modules/@aws-sdk/middleware-user-agent/",\
+        "packageDependencies": [\
+          ["@aws-sdk/middleware-user-agent", "npm:3.478.0"],\
+          ["@aws-sdk/types", "npm:3.468.0"],\
+          ["@aws-sdk/util-endpoints", "npm:3.478.0"],\
+          ["@smithy/protocol-http", "npm:3.0.12"],\
+          ["@smithy/types", "npm:2.8.0"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@aws-sdk/region-config-resolver", [\
+      ["npm:3.484.0", {\
+        "packageLocation": "./.yarn/cache/@aws-sdk-region-config-resolver-npm-3.484.0-47da420d23-6ac74ff9fd.zip/node_modules/@aws-sdk/region-config-resolver/",\
+        "packageDependencies": [\
+          ["@aws-sdk/region-config-resolver", "npm:3.484.0"],\
+          ["@smithy/node-config-provider", "npm:2.1.9"],\
+          ["@smithy/types", "npm:2.8.0"],\
+          ["@smithy/util-config-provider", "npm:2.1.0"],\
+          ["@smithy/util-middleware", "npm:2.0.9"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@aws-sdk/token-providers", [\
+      ["npm:3.484.0", {\
+        "packageLocation": "./.yarn/cache/@aws-sdk-token-providers-npm-3.484.0-de836ec37a-e9258ba192.zip/node_modules/@aws-sdk/token-providers/",\
+        "packageDependencies": [\
+          ["@aws-sdk/token-providers", "npm:3.484.0"],\
+          ["@aws-crypto/sha256-browser", "npm:3.0.0"],\
+          ["@aws-crypto/sha256-js", "npm:3.0.0"],\
+          ["@aws-sdk/middleware-host-header", "npm:3.468.0"],\
+          ["@aws-sdk/middleware-logger", "npm:3.468.0"],\
+          ["@aws-sdk/middleware-recursion-detection", "npm:3.468.0"],\
+          ["@aws-sdk/middleware-user-agent", "npm:3.478.0"],\
+          ["@aws-sdk/region-config-resolver", "npm:3.484.0"],\
+          ["@aws-sdk/types", "npm:3.468.0"],\
+          ["@aws-sdk/util-endpoints", "npm:3.478.0"],\
+          ["@aws-sdk/util-user-agent-browser", "npm:3.468.0"],\
+          ["@aws-sdk/util-user-agent-node", "virtual:f5e5a564ba918754c8b3b080eb29a2688af35b9c1a773de63eb148390564369a40f304a7384da1d22d51cb840254882c972d18d82a96c4804ada9a0446f624d6#npm:3.470.0"],\
+          ["@smithy/config-resolver", "npm:2.0.23"],\
+          ["@smithy/fetch-http-handler", "npm:2.3.2"],\
+          ["@smithy/hash-node", "npm:2.0.18"],\
+          ["@smithy/invalid-dependency", "npm:2.0.16"],\
+          ["@smithy/middleware-content-length", "npm:2.0.18"],\
+          ["@smithy/middleware-endpoint", "npm:2.3.0"],\
+          ["@smithy/middleware-retry", "npm:2.0.26"],\
+          ["@smithy/middleware-serde", "npm:2.0.16"],\
+          ["@smithy/middleware-stack", "npm:2.0.10"],\
+          ["@smithy/node-config-provider", "npm:2.1.9"],\
+          ["@smithy/node-http-handler", "npm:2.2.2"],\
+          ["@smithy/property-provider", "npm:2.0.17"],\
+          ["@smithy/protocol-http", "npm:3.0.12"],\
+          ["@smithy/shared-ini-file-loader", "npm:2.2.8"],\
+          ["@smithy/smithy-client", "npm:2.2.1"],\
+          ["@smithy/types", "npm:2.8.0"],\
+          ["@smithy/url-parser", "npm:2.0.16"],\
+          ["@smithy/util-base64", "npm:2.0.1"],\
+          ["@smithy/util-body-length-browser", "npm:2.0.1"],\
+          ["@smithy/util-body-length-node", "npm:2.1.0"],\
+          ["@smithy/util-defaults-mode-browser", "npm:2.0.24"],\
+          ["@smithy/util-defaults-mode-node", "npm:2.0.32"],\
+          ["@smithy/util-endpoints", "npm:1.0.8"],\
+          ["@smithy/util-retry", "npm:2.0.9"],\
+          ["@smithy/util-utf8", "npm:2.0.2"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@aws-sdk/types", [\
+      ["npm:3.468.0", {\
+        "packageLocation": "./.yarn/cache/@aws-sdk-types-npm-3.468.0-83450ef3ba-d2599c6e73.zip/node_modules/@aws-sdk/types/",\
+        "packageDependencies": [\
+          ["@aws-sdk/types", "npm:3.468.0"],\
+          ["@smithy/types", "npm:2.8.0"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@aws-sdk/util-endpoints", [\
+      ["npm:3.478.0", {\
+        "packageLocation": "./.yarn/cache/@aws-sdk-util-endpoints-npm-3.478.0-613fdc6d7f-4cdb7f5374.zip/node_modules/@aws-sdk/util-endpoints/",\
+        "packageDependencies": [\
+          ["@aws-sdk/util-endpoints", "npm:3.478.0"],\
+          ["@aws-sdk/types", "npm:3.468.0"],\
+          ["@smithy/util-endpoints", "npm:1.0.8"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@aws-sdk/util-locate-window", [\
+      ["npm:3.465.0", {\
+        "packageLocation": "./.yarn/cache/@aws-sdk-util-locate-window-npm-3.465.0-3fdfdeecbe-a8caa2a005.zip/node_modules/@aws-sdk/util-locate-window/",\
+        "packageDependencies": [\
+          ["@aws-sdk/util-locate-window", "npm:3.465.0"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@aws-sdk/util-user-agent-browser", [\
+      ["npm:3.468.0", {\
+        "packageLocation": "./.yarn/cache/@aws-sdk-util-user-agent-browser-npm-3.468.0-e212e154e6-b2d78fa856.zip/node_modules/@aws-sdk/util-user-agent-browser/",\
+        "packageDependencies": [\
+          ["@aws-sdk/util-user-agent-browser", "npm:3.468.0"],\
+          ["@aws-sdk/types", "npm:3.468.0"],\
+          ["@smithy/types", "npm:2.8.0"],\
+          ["bowser", "npm:2.11.0"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@aws-sdk/util-user-agent-node", [\
+      ["npm:3.470.0", {\
+        "packageLocation": "./.yarn/cache/@aws-sdk-util-user-agent-node-npm-3.470.0-99b784cecc-05571ba83d.zip/node_modules/@aws-sdk/util-user-agent-node/",\
+        "packageDependencies": [\
+          ["@aws-sdk/util-user-agent-node", "npm:3.470.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:f5e5a564ba918754c8b3b080eb29a2688af35b9c1a773de63eb148390564369a40f304a7384da1d22d51cb840254882c972d18d82a96c4804ada9a0446f624d6#npm:3.470.0", {\
+        "packageLocation": "./.yarn/__virtual__/@aws-sdk-util-user-agent-node-virtual-92b1b7bd6e/0/cache/@aws-sdk-util-user-agent-node-npm-3.470.0-99b784cecc-05571ba83d.zip/node_modules/@aws-sdk/util-user-agent-node/",\
+        "packageDependencies": [\
+          ["@aws-sdk/util-user-agent-node", "virtual:f5e5a564ba918754c8b3b080eb29a2688af35b9c1a773de63eb148390564369a40f304a7384da1d22d51cb840254882c972d18d82a96c4804ada9a0446f624d6#npm:3.470.0"],\
+          ["@aws-sdk/types", "npm:3.468.0"],\
+          ["@smithy/node-config-provider", "npm:2.1.9"],\
+          ["@smithy/types", "npm:2.8.0"],\
+          ["@types/aws-crt", null],\
+          ["aws-crt", null],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "packagePeers": [\
+          "@types/aws-crt",\
+          "aws-crt"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@aws-sdk/util-utf8-browser", [\
+      ["npm:3.259.0", {\
+        "packageLocation": "./.yarn/cache/@aws-sdk-util-utf8-browser-npm-3.259.0-343a1dba08-bdcf29a92a.zip/node_modules/@aws-sdk/util-utf8-browser/",\
+        "packageDependencies": [\
+          ["@aws-sdk/util-utf8-browser", "npm:3.259.0"],\
+          ["tslib", "npm:2.4.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@babel/code-frame", [\
       ["npm:7.10.1", {\
         "packageLocation": "./.yarn/cache/@babel-code-frame-npm-7.10.1-97c774762b-2fb50e53ac.zip/node_modules/@babel/code-frame/",\
@@ -1168,17 +1762,19 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/infra-aws", [\
-      ["npm:0.4.13", {\
-        "packageLocation": "./.yarn/cache/@goldstack-infra-aws-npm-0.4.13-f15fc03e2e-3bca17e563.zip/node_modules/@goldstack/infra-aws/",\
+      ["npm:0.4.14", {\
+        "packageLocation": "./.yarn/cache/@goldstack-infra-aws-npm-0.4.14-5a1cb0ccce-a8e8be33ea.zip/node_modules/@goldstack/infra-aws/",\
         "packageDependencies": [\
-          ["@goldstack/infra-aws", "npm:0.4.13"],\
+          ["@goldstack/infra-aws", "npm:0.4.14"],\
+          ["@aws-sdk/client-sts", "npm:3.484.0"],\
+          ["@aws-sdk/credential-providers", "npm:3.484.0"],\
+          ["@aws-sdk/types", "npm:3.468.0"],\
           ["@goldstack/infra", "npm:0.4.9"],\
           ["@goldstack/utils-config", "npm:0.4.9"],\
           ["@goldstack/utils-log", "npm:0.3.9"],\
           ["@goldstack/utils-package", "npm:0.4.9"],\
           ["@goldstack/utils-sh", "npm:0.5.9"],\
-          ["aws-sdk", "npm:2.1525.0"],\
-          ["axios", "npm:0.21.2"],\
+          ["axios", "npm:1.6.0"],\
           ["handlebars", "npm:4.7.7"]\
         ],\
         "linkType": "HARD"\
@@ -1198,18 +1794,18 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-email-send", [\
-      ["npm:0.4.15", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-email-send-npm-0.4.15-7b5ca9be96-0e462c013a.zip/node_modules/@goldstack/template-email-send/",\
+      ["npm:0.4.17", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-email-send-npm-0.4.17-4bdb841e49-62d6ec01e2.zip/node_modules/@goldstack/template-email-send/",\
         "packageDependencies": [\
-          ["@goldstack/template-email-send", "npm:0.4.15"],\
+          ["@goldstack/template-email-send", "npm:0.4.17"],\
           ["@goldstack/infra", "npm:0.4.9"],\
-          ["@goldstack/infra-aws", "npm:0.4.13"],\
+          ["@goldstack/infra-aws", "npm:0.4.14"],\
           ["@goldstack/utils-cli", "npm:0.3.9"],\
           ["@goldstack/utils-esbuild", "npm:0.5.9"],\
           ["@goldstack/utils-package", "npm:0.4.9"],\
           ["@goldstack/utils-package-config-embedded", "npm:0.5.10"],\
-          ["@goldstack/utils-terraform", "npm:0.4.14"],\
-          ["@goldstack/utils-terraform-aws", "npm:0.4.14"],\
+          ["@goldstack/utils-terraform", "npm:0.4.15"],\
+          ["@goldstack/utils-terraform-aws", "npm:0.4.16"],\
           ["aws-sdk", "npm:2.1525.0"],\
           ["uuid", "npm:8.3.0"]\
         ],\
@@ -1217,16 +1813,16 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-email-send-cli", [\
-      ["npm:0.5.15", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-email-send-cli-npm-0.5.15-3852536b55-6971c76bdd.zip/node_modules/@goldstack/template-email-send-cli/",\
+      ["npm:0.5.17", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-email-send-cli-npm-0.5.17-a7e6e3f355-aac483c242.zip/node_modules/@goldstack/template-email-send-cli/",\
         "packageDependencies": [\
-          ["@goldstack/template-email-send-cli", "npm:0.5.15"],\
-          ["@goldstack/template-email-send", "npm:0.4.15"],\
+          ["@goldstack/template-email-send-cli", "npm:0.5.17"],\
+          ["@goldstack/template-email-send", "npm:0.4.17"],\
           ["@goldstack/utils-cli", "npm:0.3.9"],\
           ["@goldstack/utils-package", "npm:0.4.9"],\
           ["@goldstack/utils-package-config", "npm:0.4.9"],\
-          ["@goldstack/utils-terraform", "npm:0.4.14"],\
-          ["@goldstack/utils-terraform-aws", "npm:0.4.14"],\
+          ["@goldstack/utils-terraform", "npm:0.4.15"],\
+          ["@goldstack/utils-terraform-aws", "npm:0.4.16"],\
           ["source-map-support", "npm:0.5.21"],\
           ["yargs", "npm:17.5.1"]\
         ],\
@@ -1350,12 +1946,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/utils-terraform", [\
-      ["npm:0.4.14", {\
-        "packageLocation": "./.yarn/cache/@goldstack-utils-terraform-npm-0.4.14-b87616352e-2be8f84493.zip/node_modules/@goldstack/utils-terraform/",\
+      ["npm:0.4.15", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-terraform-npm-0.4.15-52fc33be48-bc6aa75185.zip/node_modules/@goldstack/utils-terraform/",\
         "packageDependencies": [\
-          ["@goldstack/utils-terraform", "npm:0.4.14"],\
+          ["@goldstack/utils-terraform", "npm:0.4.15"],\
           ["@goldstack/infra", "npm:0.4.9"],\
-          ["@goldstack/infra-aws", "npm:0.4.13"],\
+          ["@goldstack/infra-aws", "npm:0.4.14"],\
           ["@goldstack/utils-config", "npm:0.4.9"],\
           ["@goldstack/utils-docker", "npm:0.4.10"],\
           ["@goldstack/utils-log", "npm:0.3.9"],\
@@ -1368,16 +1964,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/utils-terraform-aws", [\
-      ["npm:0.4.14", {\
-        "packageLocation": "./.yarn/cache/@goldstack-utils-terraform-aws-npm-0.4.14-e35a70c6b2-c03df61046.zip/node_modules/@goldstack/utils-terraform-aws/",\
+      ["npm:0.4.16", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-terraform-aws-npm-0.4.16-cd926db60d-be0fae2df9.zip/node_modules/@goldstack/utils-terraform-aws/",\
         "packageDependencies": [\
-          ["@goldstack/utils-terraform-aws", "npm:0.4.14"],\
-          ["@goldstack/infra-aws", "npm:0.4.13"],\
+          ["@goldstack/utils-terraform-aws", "npm:0.4.16"],\
+          ["@aws-sdk/types", "npm:3.468.0"],\
+          ["@goldstack/infra-aws", "npm:0.4.14"],\
           ["@goldstack/utils-config", "npm:0.4.9"],\
           ["@goldstack/utils-log", "npm:0.3.9"],\
           ["@goldstack/utils-package", "npm:0.4.9"],\
           ["@goldstack/utils-sh", "npm:0.5.9"],\
-          ["@goldstack/utils-terraform", "npm:0.4.14"],\
+          ["@goldstack/utils-terraform", "npm:0.4.15"],\
           ["aws-sdk", "npm:2.1525.0"]\
         ],\
         "linkType": "HARD"\
@@ -1974,6 +2571,503 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@sinonjs/fake-timers", "npm:9.1.2"],\
           ["@sinonjs/commons", "npm:1.8.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@smithy/abort-controller", [\
+      ["npm:2.0.16", {\
+        "packageLocation": "./.yarn/cache/@smithy-abort-controller-npm-2.0.16-b8d8984e38-3fa2db15cb.zip/node_modules/@smithy/abort-controller/",\
+        "packageDependencies": [\
+          ["@smithy/abort-controller", "npm:2.0.16"],\
+          ["@smithy/types", "npm:2.8.0"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@smithy/config-resolver", [\
+      ["npm:2.0.23", {\
+        "packageLocation": "./.yarn/cache/@smithy-config-resolver-npm-2.0.23-4743f0f2af-a590108883.zip/node_modules/@smithy/config-resolver/",\
+        "packageDependencies": [\
+          ["@smithy/config-resolver", "npm:2.0.23"],\
+          ["@smithy/node-config-provider", "npm:2.1.9"],\
+          ["@smithy/types", "npm:2.8.0"],\
+          ["@smithy/util-config-provider", "npm:2.1.0"],\
+          ["@smithy/util-middleware", "npm:2.0.9"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@smithy/core", [\
+      ["npm:1.2.2", {\
+        "packageLocation": "./.yarn/cache/@smithy-core-npm-1.2.2-e3b4172b61-4a6ff42aa0.zip/node_modules/@smithy/core/",\
+        "packageDependencies": [\
+          ["@smithy/core", "npm:1.2.2"],\
+          ["@smithy/middleware-endpoint", "npm:2.3.0"],\
+          ["@smithy/middleware-retry", "npm:2.0.26"],\
+          ["@smithy/middleware-serde", "npm:2.0.16"],\
+          ["@smithy/protocol-http", "npm:3.0.12"],\
+          ["@smithy/smithy-client", "npm:2.2.1"],\
+          ["@smithy/types", "npm:2.8.0"],\
+          ["@smithy/util-middleware", "npm:2.0.9"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@smithy/credential-provider-imds", [\
+      ["npm:2.1.5", {\
+        "packageLocation": "./.yarn/cache/@smithy-credential-provider-imds-npm-2.1.5-7b73128979-829d1c1c37.zip/node_modules/@smithy/credential-provider-imds/",\
+        "packageDependencies": [\
+          ["@smithy/credential-provider-imds", "npm:2.1.5"],\
+          ["@smithy/node-config-provider", "npm:2.1.9"],\
+          ["@smithy/property-provider", "npm:2.0.17"],\
+          ["@smithy/types", "npm:2.8.0"],\
+          ["@smithy/url-parser", "npm:2.0.16"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@smithy/eventstream-codec", [\
+      ["npm:2.0.16", {\
+        "packageLocation": "./.yarn/cache/@smithy-eventstream-codec-npm-2.0.16-ef8445d828-c0fe19690b.zip/node_modules/@smithy/eventstream-codec/",\
+        "packageDependencies": [\
+          ["@smithy/eventstream-codec", "npm:2.0.16"],\
+          ["@aws-crypto/crc32", "npm:3.0.0"],\
+          ["@smithy/types", "npm:2.8.0"],\
+          ["@smithy/util-hex-encoding", "npm:2.0.0"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@smithy/fetch-http-handler", [\
+      ["npm:2.3.2", {\
+        "packageLocation": "./.yarn/cache/@smithy-fetch-http-handler-npm-2.3.2-b9530474f8-0f64f8398f.zip/node_modules/@smithy/fetch-http-handler/",\
+        "packageDependencies": [\
+          ["@smithy/fetch-http-handler", "npm:2.3.2"],\
+          ["@smithy/protocol-http", "npm:3.0.12"],\
+          ["@smithy/querystring-builder", "npm:2.0.16"],\
+          ["@smithy/types", "npm:2.8.0"],\
+          ["@smithy/util-base64", "npm:2.0.1"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@smithy/hash-node", [\
+      ["npm:2.0.18", {\
+        "packageLocation": "./.yarn/cache/@smithy-hash-node-npm-2.0.18-79ffc3da48-ca85ebafaf.zip/node_modules/@smithy/hash-node/",\
+        "packageDependencies": [\
+          ["@smithy/hash-node", "npm:2.0.18"],\
+          ["@smithy/types", "npm:2.8.0"],\
+          ["@smithy/util-buffer-from", "npm:2.0.0"],\
+          ["@smithy/util-utf8", "npm:2.0.2"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@smithy/invalid-dependency", [\
+      ["npm:2.0.16", {\
+        "packageLocation": "./.yarn/cache/@smithy-invalid-dependency-npm-2.0.16-c4a849e5ab-0055d593c2.zip/node_modules/@smithy/invalid-dependency/",\
+        "packageDependencies": [\
+          ["@smithy/invalid-dependency", "npm:2.0.16"],\
+          ["@smithy/types", "npm:2.8.0"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@smithy/is-array-buffer", [\
+      ["npm:2.0.0", {\
+        "packageLocation": "./.yarn/cache/@smithy-is-array-buffer-npm-2.0.0-c87c41f2d4-30f8e51403.zip/node_modules/@smithy/is-array-buffer/",\
+        "packageDependencies": [\
+          ["@smithy/is-array-buffer", "npm:2.0.0"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@smithy/middleware-content-length", [\
+      ["npm:2.0.18", {\
+        "packageLocation": "./.yarn/cache/@smithy-middleware-content-length-npm-2.0.18-f345e9f245-84414174ec.zip/node_modules/@smithy/middleware-content-length/",\
+        "packageDependencies": [\
+          ["@smithy/middleware-content-length", "npm:2.0.18"],\
+          ["@smithy/protocol-http", "npm:3.0.12"],\
+          ["@smithy/types", "npm:2.8.0"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@smithy/middleware-endpoint", [\
+      ["npm:2.3.0", {\
+        "packageLocation": "./.yarn/cache/@smithy-middleware-endpoint-npm-2.3.0-d3b86c3321-6a4a407556.zip/node_modules/@smithy/middleware-endpoint/",\
+        "packageDependencies": [\
+          ["@smithy/middleware-endpoint", "npm:2.3.0"],\
+          ["@smithy/middleware-serde", "npm:2.0.16"],\
+          ["@smithy/node-config-provider", "npm:2.1.9"],\
+          ["@smithy/shared-ini-file-loader", "npm:2.2.8"],\
+          ["@smithy/types", "npm:2.8.0"],\
+          ["@smithy/url-parser", "npm:2.0.16"],\
+          ["@smithy/util-middleware", "npm:2.0.9"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@smithy/middleware-retry", [\
+      ["npm:2.0.26", {\
+        "packageLocation": "./.yarn/cache/@smithy-middleware-retry-npm-2.0.26-6e50994008-a615088a66.zip/node_modules/@smithy/middleware-retry/",\
+        "packageDependencies": [\
+          ["@smithy/middleware-retry", "npm:2.0.26"],\
+          ["@smithy/node-config-provider", "npm:2.1.9"],\
+          ["@smithy/protocol-http", "npm:3.0.12"],\
+          ["@smithy/service-error-classification", "npm:2.0.9"],\
+          ["@smithy/smithy-client", "npm:2.2.1"],\
+          ["@smithy/types", "npm:2.8.0"],\
+          ["@smithy/util-middleware", "npm:2.0.9"],\
+          ["@smithy/util-retry", "npm:2.0.9"],\
+          ["tslib", "npm:2.6.2"],\
+          ["uuid", "npm:8.3.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@smithy/middleware-serde", [\
+      ["npm:2.0.16", {\
+        "packageLocation": "./.yarn/cache/@smithy-middleware-serde-npm-2.0.16-50454d9d71-d3b2ffafd1.zip/node_modules/@smithy/middleware-serde/",\
+        "packageDependencies": [\
+          ["@smithy/middleware-serde", "npm:2.0.16"],\
+          ["@smithy/types", "npm:2.8.0"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@smithy/middleware-stack", [\
+      ["npm:2.0.10", {\
+        "packageLocation": "./.yarn/cache/@smithy-middleware-stack-npm-2.0.10-430dd62aa0-fcd8236988.zip/node_modules/@smithy/middleware-stack/",\
+        "packageDependencies": [\
+          ["@smithy/middleware-stack", "npm:2.0.10"],\
+          ["@smithy/types", "npm:2.8.0"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@smithy/node-config-provider", [\
+      ["npm:2.1.9", {\
+        "packageLocation": "./.yarn/cache/@smithy-node-config-provider-npm-2.1.9-543e9eed43-32ef8d3150.zip/node_modules/@smithy/node-config-provider/",\
+        "packageDependencies": [\
+          ["@smithy/node-config-provider", "npm:2.1.9"],\
+          ["@smithy/property-provider", "npm:2.0.17"],\
+          ["@smithy/shared-ini-file-loader", "npm:2.2.8"],\
+          ["@smithy/types", "npm:2.8.0"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@smithy/node-http-handler", [\
+      ["npm:2.2.2", {\
+        "packageLocation": "./.yarn/cache/@smithy-node-http-handler-npm-2.2.2-6300b6bfa0-545e306c87.zip/node_modules/@smithy/node-http-handler/",\
+        "packageDependencies": [\
+          ["@smithy/node-http-handler", "npm:2.2.2"],\
+          ["@smithy/abort-controller", "npm:2.0.16"],\
+          ["@smithy/protocol-http", "npm:3.0.12"],\
+          ["@smithy/querystring-builder", "npm:2.0.16"],\
+          ["@smithy/types", "npm:2.8.0"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@smithy/property-provider", [\
+      ["npm:2.0.17", {\
+        "packageLocation": "./.yarn/cache/@smithy-property-provider-npm-2.0.17-0b61b6f988-f25ec4888b.zip/node_modules/@smithy/property-provider/",\
+        "packageDependencies": [\
+          ["@smithy/property-provider", "npm:2.0.17"],\
+          ["@smithy/types", "npm:2.8.0"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@smithy/protocol-http", [\
+      ["npm:3.0.12", {\
+        "packageLocation": "./.yarn/cache/@smithy-protocol-http-npm-3.0.12-577e208b87-4fd205f54c.zip/node_modules/@smithy/protocol-http/",\
+        "packageDependencies": [\
+          ["@smithy/protocol-http", "npm:3.0.12"],\
+          ["@smithy/types", "npm:2.8.0"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@smithy/querystring-builder", [\
+      ["npm:2.0.16", {\
+        "packageLocation": "./.yarn/cache/@smithy-querystring-builder-npm-2.0.16-7fe2359661-8dc67e8e3e.zip/node_modules/@smithy/querystring-builder/",\
+        "packageDependencies": [\
+          ["@smithy/querystring-builder", "npm:2.0.16"],\
+          ["@smithy/types", "npm:2.8.0"],\
+          ["@smithy/util-uri-escape", "npm:2.0.0"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@smithy/querystring-parser", [\
+      ["npm:2.0.16", {\
+        "packageLocation": "./.yarn/cache/@smithy-querystring-parser-npm-2.0.16-c0446361a8-0c0f34fcde.zip/node_modules/@smithy/querystring-parser/",\
+        "packageDependencies": [\
+          ["@smithy/querystring-parser", "npm:2.0.16"],\
+          ["@smithy/types", "npm:2.8.0"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@smithy/service-error-classification", [\
+      ["npm:2.0.9", {\
+        "packageLocation": "./.yarn/cache/@smithy-service-error-classification-npm-2.0.9-e261064d32-5eaa401dbb.zip/node_modules/@smithy/service-error-classification/",\
+        "packageDependencies": [\
+          ["@smithy/service-error-classification", "npm:2.0.9"],\
+          ["@smithy/types", "npm:2.8.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@smithy/shared-ini-file-loader", [\
+      ["npm:2.2.8", {\
+        "packageLocation": "./.yarn/cache/@smithy-shared-ini-file-loader-npm-2.2.8-c7c1d49ee9-a6d9ee4e59.zip/node_modules/@smithy/shared-ini-file-loader/",\
+        "packageDependencies": [\
+          ["@smithy/shared-ini-file-loader", "npm:2.2.8"],\
+          ["@smithy/types", "npm:2.8.0"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@smithy/signature-v4", [\
+      ["npm:2.0.19", {\
+        "packageLocation": "./.yarn/cache/@smithy-signature-v4-npm-2.0.19-0a7b3323d1-58eff5c6fd.zip/node_modules/@smithy/signature-v4/",\
+        "packageDependencies": [\
+          ["@smithy/signature-v4", "npm:2.0.19"],\
+          ["@smithy/eventstream-codec", "npm:2.0.16"],\
+          ["@smithy/is-array-buffer", "npm:2.0.0"],\
+          ["@smithy/types", "npm:2.8.0"],\
+          ["@smithy/util-hex-encoding", "npm:2.0.0"],\
+          ["@smithy/util-middleware", "npm:2.0.9"],\
+          ["@smithy/util-uri-escape", "npm:2.0.0"],\
+          ["@smithy/util-utf8", "npm:2.0.2"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@smithy/smithy-client", [\
+      ["npm:2.2.1", {\
+        "packageLocation": "./.yarn/cache/@smithy-smithy-client-npm-2.2.1-b1c15f24cf-6e5d67d11e.zip/node_modules/@smithy/smithy-client/",\
+        "packageDependencies": [\
+          ["@smithy/smithy-client", "npm:2.2.1"],\
+          ["@smithy/middleware-endpoint", "npm:2.3.0"],\
+          ["@smithy/middleware-stack", "npm:2.0.10"],\
+          ["@smithy/protocol-http", "npm:3.0.12"],\
+          ["@smithy/types", "npm:2.8.0"],\
+          ["@smithy/util-stream", "npm:2.0.24"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@smithy/types", [\
+      ["npm:2.8.0", {\
+        "packageLocation": "./.yarn/cache/@smithy-types-npm-2.8.0-72a49d6022-802ab14632.zip/node_modules/@smithy/types/",\
+        "packageDependencies": [\
+          ["@smithy/types", "npm:2.8.0"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@smithy/url-parser", [\
+      ["npm:2.0.16", {\
+        "packageLocation": "./.yarn/cache/@smithy-url-parser-npm-2.0.16-87a297b757-f9d6e65ee1.zip/node_modules/@smithy/url-parser/",\
+        "packageDependencies": [\
+          ["@smithy/url-parser", "npm:2.0.16"],\
+          ["@smithy/querystring-parser", "npm:2.0.16"],\
+          ["@smithy/types", "npm:2.8.0"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@smithy/util-base64", [\
+      ["npm:2.0.1", {\
+        "packageLocation": "./.yarn/cache/@smithy-util-base64-npm-2.0.1-77a184b64c-6c71765396.zip/node_modules/@smithy/util-base64/",\
+        "packageDependencies": [\
+          ["@smithy/util-base64", "npm:2.0.1"],\
+          ["@smithy/util-buffer-from", "npm:2.0.0"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@smithy/util-body-length-browser", [\
+      ["npm:2.0.1", {\
+        "packageLocation": "./.yarn/cache/@smithy-util-body-length-browser-npm-2.0.1-08a5be4e15-fdeea18772.zip/node_modules/@smithy/util-body-length-browser/",\
+        "packageDependencies": [\
+          ["@smithy/util-body-length-browser", "npm:2.0.1"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@smithy/util-body-length-node", [\
+      ["npm:2.1.0", {\
+        "packageLocation": "./.yarn/cache/@smithy-util-body-length-node-npm-2.1.0-a60ca675f9-1b2e3a9981.zip/node_modules/@smithy/util-body-length-node/",\
+        "packageDependencies": [\
+          ["@smithy/util-body-length-node", "npm:2.1.0"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@smithy/util-buffer-from", [\
+      ["npm:2.0.0", {\
+        "packageLocation": "./.yarn/cache/@smithy-util-buffer-from-npm-2.0.0-f9e4f4f662-15326acdb8.zip/node_modules/@smithy/util-buffer-from/",\
+        "packageDependencies": [\
+          ["@smithy/util-buffer-from", "npm:2.0.0"],\
+          ["@smithy/is-array-buffer", "npm:2.0.0"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@smithy/util-config-provider", [\
+      ["npm:2.1.0", {\
+        "packageLocation": "./.yarn/cache/@smithy-util-config-provider-npm-2.1.0-f389941760-42f02104e2.zip/node_modules/@smithy/util-config-provider/",\
+        "packageDependencies": [\
+          ["@smithy/util-config-provider", "npm:2.1.0"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@smithy/util-defaults-mode-browser", [\
+      ["npm:2.0.24", {\
+        "packageLocation": "./.yarn/cache/@smithy-util-defaults-mode-browser-npm-2.0.24-ac9cf2ae87-b8cf6f1fec.zip/node_modules/@smithy/util-defaults-mode-browser/",\
+        "packageDependencies": [\
+          ["@smithy/util-defaults-mode-browser", "npm:2.0.24"],\
+          ["@smithy/property-provider", "npm:2.0.17"],\
+          ["@smithy/smithy-client", "npm:2.2.1"],\
+          ["@smithy/types", "npm:2.8.0"],\
+          ["bowser", "npm:2.11.0"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@smithy/util-defaults-mode-node", [\
+      ["npm:2.0.32", {\
+        "packageLocation": "./.yarn/cache/@smithy-util-defaults-mode-node-npm-2.0.32-e528048eae-d25372e50f.zip/node_modules/@smithy/util-defaults-mode-node/",\
+        "packageDependencies": [\
+          ["@smithy/util-defaults-mode-node", "npm:2.0.32"],\
+          ["@smithy/config-resolver", "npm:2.0.23"],\
+          ["@smithy/credential-provider-imds", "npm:2.1.5"],\
+          ["@smithy/node-config-provider", "npm:2.1.9"],\
+          ["@smithy/property-provider", "npm:2.0.17"],\
+          ["@smithy/smithy-client", "npm:2.2.1"],\
+          ["@smithy/types", "npm:2.8.0"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@smithy/util-endpoints", [\
+      ["npm:1.0.8", {\
+        "packageLocation": "./.yarn/cache/@smithy-util-endpoints-npm-1.0.8-8cf481c7db-09cdf21781.zip/node_modules/@smithy/util-endpoints/",\
+        "packageDependencies": [\
+          ["@smithy/util-endpoints", "npm:1.0.8"],\
+          ["@smithy/node-config-provider", "npm:2.1.9"],\
+          ["@smithy/types", "npm:2.8.0"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@smithy/util-hex-encoding", [\
+      ["npm:2.0.0", {\
+        "packageLocation": "./.yarn/cache/@smithy-util-hex-encoding-npm-2.0.0-c8ab536d98-196b594d5e.zip/node_modules/@smithy/util-hex-encoding/",\
+        "packageDependencies": [\
+          ["@smithy/util-hex-encoding", "npm:2.0.0"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@smithy/util-middleware", [\
+      ["npm:2.0.9", {\
+        "packageLocation": "./.yarn/cache/@smithy-util-middleware-npm-2.0.9-2ffbdca38d-1d379da341.zip/node_modules/@smithy/util-middleware/",\
+        "packageDependencies": [\
+          ["@smithy/util-middleware", "npm:2.0.9"],\
+          ["@smithy/types", "npm:2.8.0"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@smithy/util-retry", [\
+      ["npm:2.0.9", {\
+        "packageLocation": "./.yarn/cache/@smithy-util-retry-npm-2.0.9-0850699994-f28f1215cb.zip/node_modules/@smithy/util-retry/",\
+        "packageDependencies": [\
+          ["@smithy/util-retry", "npm:2.0.9"],\
+          ["@smithy/service-error-classification", "npm:2.0.9"],\
+          ["@smithy/types", "npm:2.8.0"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@smithy/util-stream", [\
+      ["npm:2.0.24", {\
+        "packageLocation": "./.yarn/cache/@smithy-util-stream-npm-2.0.24-a0907548eb-fa22edcd38.zip/node_modules/@smithy/util-stream/",\
+        "packageDependencies": [\
+          ["@smithy/util-stream", "npm:2.0.24"],\
+          ["@smithy/fetch-http-handler", "npm:2.3.2"],\
+          ["@smithy/node-http-handler", "npm:2.2.2"],\
+          ["@smithy/types", "npm:2.8.0"],\
+          ["@smithy/util-base64", "npm:2.0.1"],\
+          ["@smithy/util-buffer-from", "npm:2.0.0"],\
+          ["@smithy/util-hex-encoding", "npm:2.0.0"],\
+          ["@smithy/util-utf8", "npm:2.0.2"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@smithy/util-uri-escape", [\
+      ["npm:2.0.0", {\
+        "packageLocation": "./.yarn/cache/@smithy-util-uri-escape-npm-2.0.0-0a38e06daa-2f121d1fce.zip/node_modules/@smithy/util-uri-escape/",\
+        "packageDependencies": [\
+          ["@smithy/util-uri-escape", "npm:2.0.0"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@smithy/util-utf8", [\
+      ["npm:2.0.2", {\
+        "packageLocation": "./.yarn/cache/@smithy-util-utf8-npm-2.0.2-8fdd94270f-9356200ac7.zip/node_modules/@smithy/util-utf8/",\
+        "packageDependencies": [\
+          ["@smithy/util-utf8", "npm:2.0.2"],\
+          ["@smithy/util-buffer-from", "npm:2.0.0"],\
+          ["tslib", "npm:2.6.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2903,6 +3997,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["asynckit", [\
+      ["npm:0.4.0", {\
+        "packageLocation": "./.yarn/cache/asynckit-npm-0.4.0-c718858525-3ce727cbc7.zip/node_modules/asynckit/",\
+        "packageDependencies": [\
+          ["asynckit", "npm:0.4.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["available-typed-arrays", [\
       ["npm:1.0.5", {\
         "packageLocation": "./.yarn/cache/available-typed-arrays-npm-1.0.5-88f321e4d3-4d4d5e86ea.zip/node_modules/available-typed-arrays/",\
@@ -2932,11 +4035,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["axios", [\
-      ["npm:0.21.2", {\
-        "packageLocation": "./.yarn/cache/axios-npm-0.21.2-4e5c6b9349-00570fb139.zip/node_modules/axios/",\
+      ["npm:1.6.0", {\
+        "packageLocation": "./.yarn/cache/axios-npm-1.6.0-b0f6015a96-f069d938a0.zip/node_modules/axios/",\
         "packageDependencies": [\
-          ["axios", "npm:0.21.2"],\
-          ["follow-redirects", "virtual:4e5c6b9349e6bc8772430b94154213d692c945c13fd2e5ef9d7b970a60dc5f5fdb0404831abbc2e33f6bd7517e82d96cd1cf882401ab056cf86279be1854bcb2#npm:1.15.4"]\
+          ["axios", "npm:1.6.0"],\
+          ["follow-redirects", "virtual:b0f6015a963175f08000990853b55c1a6d1a3722c7c1d5e0885425211ae7ee63bf6b96b7e997f23d1bc9573bb78556c981010ca3a2873c90fc1ce293c6dd5667#npm:1.15.4"],\
+          ["form-data", "npm:4.0.0"],\
+          ["proxy-from-env", "npm:1.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3113,6 +4218,15 @@ const RAW_RUNTIME_STATE =
           ["buffer", "npm:5.6.0"],\
           ["inherits", "npm:2.0.4"],\
           ["readable-stream", "npm:3.6.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["bowser", [\
+      ["npm:2.11.0", {\
+        "packageLocation": "./.yarn/cache/bowser-npm-2.11.0-33664d9063-ef46500eaf.zip/node_modules/bowser/",\
+        "packageDependencies": [\
+          ["bowser", "npm:2.11.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3476,6 +4590,16 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["combined-stream", [\
+      ["npm:1.0.8", {\
+        "packageLocation": "./.yarn/cache/combined-stream-npm-1.0.8-dc14d4a63a-2e969e637d.zip/node_modules/combined-stream/",\
+        "packageDependencies": [\
+          ["combined-stream", "npm:1.0.8"],\
+          ["delayed-stream", "npm:1.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["command-exists", [\
       ["npm:1.2.9", {\
         "packageLocation": "./.yarn/cache/command-exists-npm-1.2.9-cc51a1f78a-46fb3c4d62.zip/node_modules/command-exists/",\
@@ -3711,6 +4835,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["delayed-stream", [\
+      ["npm:1.0.0", {\
+        "packageLocation": "./.yarn/cache/delayed-stream-npm-1.0.0-c5a4c4cc02-46fe6e83e2.zip/node_modules/delayed-stream/",\
+        "packageDependencies": [\
+          ["delayed-stream", "npm:1.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["delegates", [\
       ["npm:1.0.0", {\
         "packageLocation": "./.yarn/cache/delegates-npm-1.0.0-9b1942d75f-a51744d9b5.zip/node_modules/delegates/",\
@@ -3913,8 +5046,8 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./packages/email-send-1/",\
         "packageDependencies": [\
           ["email-send-1", "workspace:packages/email-send-1"],\
-          ["@goldstack/template-email-send", "npm:0.4.15"],\
-          ["@goldstack/template-email-send-cli", "npm:0.5.15"],\
+          ["@goldstack/template-email-send", "npm:0.4.17"],\
+          ["@goldstack/template-email-send-cli", "npm:0.5.17"],\
           ["@goldstack/utils-git", "npm:0.2.9"],\
           ["@goldstack/utils-sh", "npm:0.5.9"],\
           ["@swc/core", "virtual:544533a6a2a18f358a87d41e33a8a14953913ff6093adab6e4d09f7915754f0e23a12ef9f87ffb91c1aff2acac86f63748151edff4f36985ead1c3fd4fbd4969#npm:1.3.74"],\
@@ -4623,6 +5756,16 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["fast-xml-parser", [\
+      ["npm:4.2.5", {\
+        "packageLocation": "./.yarn/cache/fast-xml-parser-npm-4.2.5-342a3689c5-4be7ebe24d.zip/node_modules/fast-xml-parser/",\
+        "packageDependencies": [\
+          ["fast-xml-parser", "npm:4.2.5"],\
+          ["strnum", "npm:1.0.5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["fastq", [\
       ["npm:1.8.0", {\
         "packageLocation": "./.yarn/cache/fastq-npm-1.8.0-4c0923de4a-7b7908a90e.zip/node_modules/fastq/",\
@@ -4721,10 +5864,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:4e5c6b9349e6bc8772430b94154213d692c945c13fd2e5ef9d7b970a60dc5f5fdb0404831abbc2e33f6bd7517e82d96cd1cf882401ab056cf86279be1854bcb2#npm:1.15.4", {\
-        "packageLocation": "./.yarn/__virtual__/follow-redirects-virtual-a7a97f6be6/0/cache/follow-redirects-npm-1.15.4-3384d6a415-2e8f5f259a.zip/node_modules/follow-redirects/",\
+      ["virtual:b0f6015a963175f08000990853b55c1a6d1a3722c7c1d5e0885425211ae7ee63bf6b96b7e997f23d1bc9573bb78556c981010ca3a2873c90fc1ce293c6dd5667#npm:1.15.4", {\
+        "packageLocation": "./.yarn/__virtual__/follow-redirects-virtual-803fc26979/0/cache/follow-redirects-npm-1.15.4-3384d6a415-2e8f5f259a.zip/node_modules/follow-redirects/",\
         "packageDependencies": [\
-          ["follow-redirects", "virtual:4e5c6b9349e6bc8772430b94154213d692c945c13fd2e5ef9d7b970a60dc5f5fdb0404831abbc2e33f6bd7517e82d96cd1cf882401ab056cf86279be1854bcb2#npm:1.15.4"],\
+          ["follow-redirects", "virtual:b0f6015a963175f08000990853b55c1a6d1a3722c7c1d5e0885425211ae7ee63bf6b96b7e997f23d1bc9573bb78556c981010ca3a2873c90fc1ce293c6dd5667#npm:1.15.4"],\
           ["@types/debug", null],\
           ["debug", null]\
         ],\
@@ -4741,6 +5884,18 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["for-each", "npm:0.3.3"],\
           ["is-callable", "npm:1.2.6"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["form-data", [\
+      ["npm:4.0.0", {\
+        "packageLocation": "./.yarn/cache/form-data-npm-4.0.0-916facec2d-7264aa760a.zip/node_modules/form-data/",\
+        "packageDependencies": [\
+          ["form-data", "npm:4.0.0"],\
+          ["asynckit", "npm:0.4.0"],\
+          ["combined-stream", "npm:1.0.8"],\
+          ["mime-types", "npm:2.1.27"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -6837,6 +7992,25 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["mime-db", [\
+      ["npm:1.44.0", {\
+        "packageLocation": "./.yarn/cache/mime-db-npm-1.44.0-d6ab7b4e20-7cde7b1d8e.zip/node_modules/mime-db/",\
+        "packageDependencies": [\
+          ["mime-db", "npm:1.44.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["mime-types", [\
+      ["npm:2.1.27", {\
+        "packageLocation": "./.yarn/cache/mime-types-npm-2.1.27-bbebca8e17-056a862572.zip/node_modules/mime-types/",\
+        "packageDependencies": [\
+          ["mime-types", "npm:2.1.27"],\
+          ["mime-db", "npm:1.44.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["mimic-fn", [\
       ["npm:2.1.0", {\
         "packageLocation": "./.yarn/cache/mimic-fn-npm-2.1.0-4fbeb3abb4-d2421a3444.zip/node_modules/mimic-fn/",\
@@ -7605,6 +8779,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["proxy-from-env", [\
+      ["npm:1.1.0", {\
+        "packageLocation": "./.yarn/cache/proxy-from-env-npm-1.1.0-c13d07f26b-f0bb4a87cf.zip/node_modules/proxy-from-env/",\
+        "packageDependencies": [\
+          ["proxy-from-env", "npm:1.1.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["pstree.remy", [\
       ["npm:1.1.8", {\
         "packageLocation": "./.yarn/cache/pstree.remy-npm-1.1.8-2dd5d55de2-ef13b1b589.zip/node_modules/pstree.remy/",\
@@ -8317,6 +9500,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["strnum", [\
+      ["npm:1.0.5", {\
+        "packageLocation": "./.yarn/cache/strnum-npm-1.0.5-9ba11d2a0a-d3117975db.zip/node_modules/strnum/",\
+        "packageDependencies": [\
+          ["strnum", "npm:1.0.5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["supports-color", [\
       ["npm:5.5.0", {\
         "packageLocation": "./.yarn/cache/supports-color-npm-5.5.0-183ac537bc-5f505c6fa3.zip/node_modules/supports-color/",\
@@ -8498,6 +9690,27 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/tslib-npm-1.13.0-f5e9ea9b66-703f52fe84.zip/node_modules/tslib/",\
         "packageDependencies": [\
           ["tslib", "npm:1.13.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:1.14.1", {\
+        "packageLocation": "./.yarn/cache/tslib-npm-1.14.1-102499115e-7dbf34e6f5.zip/node_modules/tslib/",\
+        "packageDependencies": [\
+          ["tslib", "npm:1.14.1"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:2.4.0", {\
+        "packageLocation": "./.yarn/cache/tslib-npm-2.4.0-9cb6dc5030-d8379e68b3.zip/node_modules/tslib/",\
+        "packageDependencies": [\
+          ["tslib", "npm:2.4.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:2.6.2", {\
+        "packageLocation": "./.yarn/cache/tslib-npm-2.6.2-4fc8c068d9-bd26c22d36.zip/node_modules/tslib/",\
+        "packageDependencies": [\
+          ["tslib", "npm:2.6.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -8707,6 +9920,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/uuid-npm-8.3.0-2f98335399-a9760cd58e.zip/node_modules/uuid/",\
         "packageDependencies": [\
           ["uuid", "npm:8.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:8.3.2", {\
+        "packageLocation": "./.yarn/cache/uuid-npm-8.3.2-eca0baba53-9a5f7aa1d6.zip/node_modules/uuid/",\
+        "packageDependencies": [\
+          ["uuid", "npm:8.3.2"]\
         ],\
         "linkType": "HARD"\
       }]\
