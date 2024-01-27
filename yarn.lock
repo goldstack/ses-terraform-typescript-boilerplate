@@ -1966,28 +1966,28 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-email-send-cli@npm:0.5.19":
-  version: 0.5.19
-  resolution: "@goldstack/template-email-send-cli@npm:0.5.19"
+"@goldstack/template-email-send-cli@npm:0.5.20":
+  version: 0.5.20
+  resolution: "@goldstack/template-email-send-cli@npm:0.5.20"
   dependencies:
-    "@goldstack/template-email-send": "npm:0.4.19"
+    "@goldstack/template-email-send": "npm:0.4.20"
     "@goldstack/utils-cli": "npm:0.3.9"
     "@goldstack/utils-package": "npm:0.4.9"
     "@goldstack/utils-package-config": "npm:0.4.9"
-    "@goldstack/utils-terraform": "npm:0.4.16"
-    "@goldstack/utils-terraform-aws": "npm:0.4.18"
+    "@goldstack/utils-terraform": "npm:0.4.17"
+    "@goldstack/utils-terraform-aws": "npm:0.4.19"
     source-map-support: "npm:^0.5.21"
     yargs: "npm:^17.5.1"
   bin:
     template: ./bin/template
     template-email-send: ./bin/template
-  checksum: 2a7baf5035675cd1b3b7e9b46a4ffafb501ac04c38bc8dc2a686c1e74c13df74f42c6d4899fd7a3a7b9c92b932a04d7646443dbe957c8302a211f1ed05e30987
+  checksum: 9e00f361f4999bfb3ea785e55af23cdfded958c0db769ae266329e90094f47a5bffd9a1c573a3d520c89a9968cf8d99b37fd5eb7fac93498929ef37ba6bd1355
   languageName: node
   linkType: hard
 
-"@goldstack/template-email-send@npm:0.4.19":
-  version: 0.4.19
-  resolution: "@goldstack/template-email-send@npm:0.4.19"
+"@goldstack/template-email-send@npm:0.4.20":
+  version: 0.4.20
+  resolution: "@goldstack/template-email-send@npm:0.4.20"
   dependencies:
     "@goldstack/infra": "npm:0.4.9"
     "@goldstack/infra-aws": "npm:0.4.15"
@@ -1995,11 +1995,11 @@ __metadata:
     "@goldstack/utils-esbuild": "npm:0.5.9"
     "@goldstack/utils-package": "npm:0.4.9"
     "@goldstack/utils-package-config-embedded": "npm:0.5.10"
-    "@goldstack/utils-terraform": "npm:0.4.16"
-    "@goldstack/utils-terraform-aws": "npm:0.4.18"
+    "@goldstack/utils-terraform": "npm:0.4.17"
+    "@goldstack/utils-terraform-aws": "npm:0.4.19"
     aws-sdk: "npm:2.1525.0"
     uuid: "npm:^8.3.0"
-  checksum: 840498c161d5e9a706e4ae1855cb38081996b8e296c09b06bf75ebcef4d28d6d27422ee344d9f4f40fa2e7863192398199c0a932798191155d0dd4588b93c17c
+  checksum: f3f1205a87f29d566a44b9e20f73dbe8633cf55004df0d322f781a404a862f48609b35cd3c04c5bc6f2ca4b598024f74fe74a879e59fb7247634adeb85e40b0e
   languageName: node
   linkType: hard
 
@@ -2108,9 +2108,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/utils-terraform-aws@npm:0.4.18":
-  version: 0.4.18
-  resolution: "@goldstack/utils-terraform-aws@npm:0.4.18"
+"@goldstack/utils-terraform-aws@npm:0.4.19":
+  version: 0.4.19
+  resolution: "@goldstack/utils-terraform-aws@npm:0.4.19"
   dependencies:
     "@aws-sdk/client-dynamodb": "npm:3.485.0"
     "@aws-sdk/client-s3": "npm:3.485.0"
@@ -2120,14 +2120,14 @@ __metadata:
     "@goldstack/utils-log": "npm:0.3.9"
     "@goldstack/utils-package": "npm:0.4.9"
     "@goldstack/utils-sh": "npm:0.5.9"
-    "@goldstack/utils-terraform": "npm:0.4.16"
-  checksum: 35fd9fd5d92142e413a13b68a8b5c7d898c6495183a1b22c685e112ab425290d32960b17a62eb8cdfe6a50a4dd271122ff4951582820fdd4ee60d01271459105
+    "@goldstack/utils-terraform": "npm:0.4.17"
+  checksum: 103d9b12f192894c6d7873b3c6502438a687194db0bab3b4eaa06293a82a73ebc3e6b6abfd92bf37910e48db5b5b8e4291aaeefaf74a8cfaf26780114e36e515
   languageName: node
   linkType: hard
 
-"@goldstack/utils-terraform@npm:0.4.16":
-  version: 0.4.16
-  resolution: "@goldstack/utils-terraform@npm:0.4.16"
+"@goldstack/utils-terraform@npm:0.4.17":
+  version: 0.4.17
+  resolution: "@goldstack/utils-terraform@npm:0.4.17"
   dependencies:
     "@goldstack/infra": "npm:0.4.9"
     "@goldstack/infra-aws": "npm:0.4.15"
@@ -2138,7 +2138,7 @@ __metadata:
     "@goldstack/utils-sh": "npm:0.5.9"
     json-stable-stringify: "npm:^1.0.1"
     yargs: "npm:^17.5.1"
-  checksum: e893a46c71df51b92d2df72c0f1564e51051e44bd102abe9e9cd08b1ac80cd95f4f88c4bfabf58e95927aad6ca63d67e7cdf77c026b438d7200c8c89d583d214
+  checksum: 2f68179a458752fa680045d33f14df25ff4c009e14bafc37583de10ae4689d35af37f67fc9af11b5b5ab1ae3fecabb0e33b1fc456e6ba4ed283605e36c0a4a9e
   languageName: node
   linkType: hard
 
@@ -4869,8 +4869,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "email-send-1@workspace:packages/email-send-1"
   dependencies:
-    "@goldstack/template-email-send": "npm:0.4.19"
-    "@goldstack/template-email-send-cli": "npm:0.5.19"
+    "@goldstack/template-email-send": "npm:0.4.20"
+    "@goldstack/template-email-send-cli": "npm:0.5.20"
     "@goldstack/utils-git": "npm:0.2.9"
     "@goldstack/utils-sh": "npm:0.5.9"
     "@swc/core": "npm:^1.3.74"
