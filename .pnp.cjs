@@ -2566,10 +2566,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-email-send", [\
-      ["npm:0.4.33", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-email-send-npm-0.4.33-fefa2a817a-de8fbacbdf.zip/node_modules/@goldstack/template-email-send/",\
+      ["npm:0.4.34", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-email-send-npm-0.4.34-8bce7478c4-ed5c978a98.zip/node_modules/@goldstack/template-email-send/",\
         "packageDependencies": [\
-          ["@goldstack/template-email-send", "npm:0.4.33"],\
+          ["@goldstack/template-email-send", "npm:0.4.34"],\
           ["@aws-sdk/client-ses", "npm:3.645.0"],\
           ["@aws-sdk/credential-providers", "npm:3.645.0"],\
           ["@aws-sdk/types", "npm:3.609.0"],\
@@ -2588,11 +2588,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-email-send-cli", [\
-      ["npm:0.5.33", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-email-send-cli-npm-0.5.33-7b6db7909f-5df1ef106e.zip/node_modules/@goldstack/template-email-send-cli/",\
+      ["npm:0.5.34", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-email-send-cli-npm-0.5.34-882da2b4aa-ad8abfcbab.zip/node_modules/@goldstack/template-email-send-cli/",\
         "packageDependencies": [\
-          ["@goldstack/template-email-send-cli", "npm:0.5.33"],\
-          ["@goldstack/template-email-send", "npm:0.4.33"],\
+          ["@goldstack/template-email-send-cli", "npm:0.5.34"],\
+          ["@goldstack/template-email-send", "npm:0.4.34"],\
           ["@goldstack/utils-cli", "npm:0.3.10"],\
           ["@goldstack/utils-package", "npm:0.4.12"],\
           ["@goldstack/utils-package-config", "npm:0.4.12"],\
@@ -6078,8 +6078,8 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["email-send-1", "workspace:packages/email-send-1"],\
           ["@aws-sdk/client-ses", "npm:3.645.0"],\
-          ["@goldstack/template-email-send", "npm:0.4.33"],\
-          ["@goldstack/template-email-send-cli", "npm:0.5.33"],\
+          ["@goldstack/template-email-send", "npm:0.4.34"],\
+          ["@goldstack/template-email-send-cli", "npm:0.5.34"],\
           ["@goldstack/utils-git", "npm:0.2.9"],\
           ["@goldstack/utils-sh", "npm:0.5.11"],\
           ["@swc/core", "virtual:544533a6a2a18f358a87d41e33a8a14953913ff6093adab6e4d09f7915754f0e23a12ef9f87ffb91c1aff2acac86f63748151edff4f36985ead1c3fd4fbd4969#npm:1.3.74"],\
