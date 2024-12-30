@@ -3056,10 +3056,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/infra-aws", [\
-      ["npm:0.4.30", {\
-        "packageLocation": "./.yarn/cache/@goldstack-infra-aws-npm-0.4.30-4a528000cd-88904a0048.zip/node_modules/@goldstack/infra-aws/",\
+      ["npm:0.4.31", {\
+        "packageLocation": "./.yarn/cache/@goldstack-infra-aws-npm-0.4.31-d5287fef05-06af299532.zip/node_modules/@goldstack/infra-aws/",\
         "packageDependencies": [\
-          ["@goldstack/infra-aws", "npm:0.4.30"],\
+          ["@goldstack/infra-aws", "npm:0.4.31"],\
           ["@aws-sdk/client-sts", "npm:3.645.0"],\
           ["@aws-sdk/credential-providers", "npm:3.645.0"],\
           ["@aws-sdk/types", "npm:3.609.0"],\
@@ -3088,21 +3088,21 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-email-send", [\
-      ["npm:0.4.48", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-email-send-npm-0.4.48-c08ff655ad-2a3dd40c6c.zip/node_modules/@goldstack/template-email-send/",\
+      ["npm:0.4.49", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-email-send-npm-0.4.49-0c1dd6f287-d0b86a445e.zip/node_modules/@goldstack/template-email-send/",\
         "packageDependencies": [\
-          ["@goldstack/template-email-send", "npm:0.4.48"],\
+          ["@goldstack/template-email-send", "npm:0.4.49"],\
           ["@aws-sdk/client-ses", "npm:3.645.0"],\
           ["@aws-sdk/credential-providers", "npm:3.645.0"],\
           ["@aws-sdk/types", "npm:3.609.0"],\
           ["@goldstack/infra", "npm:0.4.21"],\
-          ["@goldstack/infra-aws", "npm:0.4.30"],\
+          ["@goldstack/infra-aws", "npm:0.4.31"],\
           ["@goldstack/utils-cli", "npm:0.3.16"],\
           ["@goldstack/utils-esbuild", "npm:0.5.12"],\
           ["@goldstack/utils-package", "npm:0.4.21"],\
           ["@goldstack/utils-package-config-embedded", "npm:0.5.22"],\
-          ["@goldstack/utils-terraform", "npm:0.4.40"],\
-          ["@goldstack/utils-terraform-aws", "npm:0.4.43"],\
+          ["@goldstack/utils-terraform", "npm:0.4.41"],\
+          ["@goldstack/utils-terraform-aws", "npm:0.4.44"],\
           ["aws-sdk-client-mock", "npm:4.0.1"],\
           ["uuid", "npm:8.3.0"]\
         ],\
@@ -3110,16 +3110,16 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-email-send-cli", [\
-      ["npm:0.5.48", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-email-send-cli-npm-0.5.48-53588eef99-ae047be54d.zip/node_modules/@goldstack/template-email-send-cli/",\
+      ["npm:0.5.49", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-email-send-cli-npm-0.5.49-ad0ebcbece-ecd09be390.zip/node_modules/@goldstack/template-email-send-cli/",\
         "packageDependencies": [\
-          ["@goldstack/template-email-send-cli", "npm:0.5.48"],\
-          ["@goldstack/template-email-send", "npm:0.4.48"],\
+          ["@goldstack/template-email-send-cli", "npm:0.5.49"],\
+          ["@goldstack/template-email-send", "npm:0.4.49"],\
           ["@goldstack/utils-cli", "npm:0.3.16"],\
           ["@goldstack/utils-package", "npm:0.4.21"],\
           ["@goldstack/utils-package-config", "npm:0.4.21"],\
-          ["@goldstack/utils-terraform", "npm:0.4.40"],\
-          ["@goldstack/utils-terraform-aws", "npm:0.4.43"],\
+          ["@goldstack/utils-terraform", "npm:0.4.41"],\
+          ["@goldstack/utils-terraform-aws", "npm:0.4.44"],\
           ["source-map-support", "npm:0.5.21"],\
           ["yargs", "npm:17.5.1"]\
         ],\
@@ -3246,12 +3246,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/utils-terraform", [\
-      ["npm:0.4.40", {\
-        "packageLocation": "./.yarn/cache/@goldstack-utils-terraform-npm-0.4.40-a454eeba8a-fb044610cb.zip/node_modules/@goldstack/utils-terraform/",\
+      ["npm:0.4.41", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-terraform-npm-0.4.41-d950f8177c-00b68d37b1.zip/node_modules/@goldstack/utils-terraform/",\
         "packageDependencies": [\
-          ["@goldstack/utils-terraform", "npm:0.4.40"],\
+          ["@goldstack/utils-terraform", "npm:0.4.41"],\
           ["@goldstack/infra", "npm:0.4.21"],\
-          ["@goldstack/infra-aws", "npm:0.4.30"],\
+          ["@goldstack/infra-aws", "npm:0.4.31"],\
           ["@goldstack/utils-config", "npm:0.4.21"],\
           ["@goldstack/utils-docker", "npm:0.4.22"],\
           ["@goldstack/utils-log", "npm:0.3.18"],\
@@ -3264,20 +3264,20 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/utils-terraform-aws", [\
-      ["npm:0.4.43", {\
-        "packageLocation": "./.yarn/cache/@goldstack-utils-terraform-aws-npm-0.4.43-a6030bc99a-89b51a4d95.zip/node_modules/@goldstack/utils-terraform-aws/",\
+      ["npm:0.4.44", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-terraform-aws-npm-0.4.44-d55a7fecf8-f53d2ee71e.zip/node_modules/@goldstack/utils-terraform-aws/",\
         "packageDependencies": [\
-          ["@goldstack/utils-terraform-aws", "npm:0.4.43"],\
+          ["@goldstack/utils-terraform-aws", "npm:0.4.44"],\
           ["@aws-sdk/client-dynamodb", "npm:3.645.0"],\
           ["@aws-sdk/client-s3", "npm:3.620.0"],\
           ["@aws-sdk/types", "npm:3.609.0"],\
-          ["@goldstack/infra-aws", "npm:0.4.30"],\
+          ["@goldstack/infra-aws", "npm:0.4.31"],\
           ["@goldstack/utils-cli", "npm:0.3.16"],\
           ["@goldstack/utils-config", "npm:0.4.21"],\
           ["@goldstack/utils-log", "npm:0.3.18"],\
           ["@goldstack/utils-package", "npm:0.4.21"],\
           ["@goldstack/utils-sh", "npm:0.5.20"],\
-          ["@goldstack/utils-terraform", "npm:0.4.40"]\
+          ["@goldstack/utils-terraform", "npm:0.4.41"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -7033,8 +7033,8 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["email-send-1", "workspace:packages/email-send-1"],\
           ["@aws-sdk/client-ses", "npm:3.645.0"],\
-          ["@goldstack/template-email-send", "npm:0.4.48"],\
-          ["@goldstack/template-email-send-cli", "npm:0.5.48"],\
+          ["@goldstack/template-email-send", "npm:0.4.49"],\
+          ["@goldstack/template-email-send-cli", "npm:0.5.49"],\
           ["@goldstack/utils-git", "npm:0.2.12"],\
           ["@goldstack/utils-sh", "npm:0.5.20"],\
           ["@swc/core", "virtual:544533a6a2a18f358a87d41e33a8a14953913ff6093adab6e4d09f7915754f0e23a12ef9f87ffb91c1aff2acac86f63748151edff4f36985ead1c3fd4fbd4969#npm:1.10.1"],\
