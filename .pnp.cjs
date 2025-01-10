@@ -3088,10 +3088,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-email-send", [\
-      ["npm:0.4.50", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-email-send-npm-0.4.50-bb2a146eb0-91d9bb99c7.zip/node_modules/@goldstack/template-email-send/",\
+      ["npm:0.4.51", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-email-send-npm-0.4.51-448f57b36b-ed708b259d.zip/node_modules/@goldstack/template-email-send/",\
         "packageDependencies": [\
-          ["@goldstack/template-email-send", "npm:0.4.50"],\
+          ["@goldstack/template-email-send", "npm:0.4.51"],\
           ["@aws-sdk/client-ses", "npm:3.645.0"],\
           ["@aws-sdk/credential-providers", "npm:3.645.0"],\
           ["@aws-sdk/types", "npm:3.609.0"],\
@@ -3104,17 +3104,17 @@ const RAW_RUNTIME_STATE =
           ["@goldstack/utils-terraform", "npm:0.4.42"],\
           ["@goldstack/utils-terraform-aws", "npm:0.4.45"],\
           ["aws-sdk-client-mock", "npm:4.0.1"],\
-          ["uuid", "npm:8.3.0"]\
+          ["uuid", "npm:11.0.5"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@goldstack/template-email-send-cli", [\
-      ["npm:0.5.50", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-email-send-cli-npm-0.5.50-073b95ae5a-92b7714bf6.zip/node_modules/@goldstack/template-email-send-cli/",\
+      ["npm:0.5.51", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-email-send-cli-npm-0.5.51-6e3ea6bee4-c09650ce74.zip/node_modules/@goldstack/template-email-send-cli/",\
         "packageDependencies": [\
-          ["@goldstack/template-email-send-cli", "npm:0.5.50"],\
-          ["@goldstack/template-email-send", "npm:0.4.50"],\
+          ["@goldstack/template-email-send-cli", "npm:0.5.51"],\
+          ["@goldstack/template-email-send", "npm:0.4.51"],\
           ["@goldstack/utils-cli", "npm:0.3.16"],\
           ["@goldstack/utils-package", "npm:0.4.22"],\
           ["@goldstack/utils-package-config", "npm:0.4.22"],\
@@ -7033,8 +7033,8 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["email-send-1", "workspace:packages/email-send-1"],\
           ["@aws-sdk/client-ses", "npm:3.645.0"],\
-          ["@goldstack/template-email-send", "npm:0.4.50"],\
-          ["@goldstack/template-email-send-cli", "npm:0.5.50"],\
+          ["@goldstack/template-email-send", "npm:0.4.51"],\
+          ["@goldstack/template-email-send-cli", "npm:0.5.51"],\
           ["@goldstack/utils-git", "npm:0.2.12"],\
           ["@goldstack/utils-sh", "npm:0.5.21"],\
           ["@swc/core", "virtual:544533a6a2a18f358a87d41e33a8a14953913ff6093adab6e4d09f7915754f0e23a12ef9f87ffb91c1aff2acac86f63748151edff4f36985ead1c3fd4fbd4969#npm:1.10.1"],\
@@ -12233,10 +12233,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["uuid", [\
-      ["npm:8.3.0", {\
-        "packageLocation": "./.yarn/cache/uuid-npm-8.3.0-2f98335399-a9760cd58e.zip/node_modules/uuid/",\
+      ["npm:11.0.5", {\
+        "packageLocation": "./.yarn/cache/uuid-npm-11.0.5-685b7c1023-0594ecdff3.zip/node_modules/uuid/",\
         "packageDependencies": [\
-          ["uuid", "npm:8.3.0"]\
+          ["uuid", "npm:11.0.5"]\
         ],\
         "linkType": "HARD"\
       }],\
