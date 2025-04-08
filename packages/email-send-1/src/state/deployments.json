@@ -1,6 +1,5 @@
 [
   {
-    "name": "prod",
-    "terraform": {}
+    "name": "prod"
   }
 ]
