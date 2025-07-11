@@ -1,8 +1,8 @@
 {
   "$schema": "./schemas/package.schema.json",
+  "name": "project-email-send",
   "configuration": {},
   "deployments": [],
-  "name": "project-email-send",
   "template": "yarn-pnp-monorepo",
   "templateVersion": "0.1.0"
 }
