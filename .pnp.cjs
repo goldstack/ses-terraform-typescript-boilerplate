@@ -40,7 +40,7 @@ const RAW_RUNTIME_STATE =
           ["@types/node", "npm:24.0.13"],\
           ["nodemon", "npm:2.0.20"],\
           ["project-email-send", "workspace:."],\
-          ["react", "npm:19.1.0"],\
+          ["react", "npm:19.2.1"],\
           ["typescript", "patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=5786d5"]\
         ],\
         "linkType": "SOFT"\
@@ -9820,7 +9820,7 @@ const RAW_RUNTIME_STATE =
           ["@types/node", "npm:24.0.13"],\
           ["nodemon", "npm:2.0.20"],\
           ["project-email-send", "workspace:."],\
-          ["react", "npm:19.1.0"],\
+          ["react", "npm:19.2.1"],\
           ["typescript", "patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=5786d5"]\
         ],\
         "linkType": "SOFT"\
@@ -9927,10 +9927,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["react", [\
-      ["npm:19.1.0", {\
-        "packageLocation": "./.yarn/cache/react-npm-19.1.0-9804a7da5b-d018068982.zip/node_modules/react/",\
+      ["npm:19.2.1", {\
+        "packageLocation": "./.yarn/cache/react-npm-19.2.1-ee2feff9fc-7c7ab0f40b.zip/node_modules/react/",\
         "packageDependencies": [\
-          ["react", "npm:19.1.0"]\
+          ["react", "npm:19.2.1"]\
         ],\
         "linkType": "HARD"\
       }]\
