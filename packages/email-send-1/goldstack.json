@@ -10,10 +10,10 @@
       "awsUser": "goldstack-dev",
       "awsRegion": "us-west-2",
       "configuration": {
-        "domain": "email-send-1766109262461.tests.dev.goldstack.party",
+        "domain": "email-send-1766111669363.tests.dev.goldstack.party",
         "hostedZoneDomain": "dev.goldstack.party"
       },
-      "tfStateKey": "email-send-1-prod-b526d536644e2ef252c3.tfstate"
+      "tfStateKey": "email-send-1-prod-e12a2acb57ecb732d361.tfstate"
     }
   ]
 }
