@@ -3843,11 +3843,11 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:2.1.2", {\
-        "packageLocation": "./.yarn/cache/brace-expansion-npm-2.1.2-1d27efb657-0e0f9b0df1.zip/node_modules/brace-expansion/",\
+      ["npm:2.1.7", {\
+        "packageLocation": "./.yarn/cache/brace-expansion-npm-2.1.7-2aa930ff1e-4763be07b6.zip/node_modules/brace-expansion/",\
         "packageDependencies": [\
           ["balanced-match", "npm:1.0.0"],\
-          ["brace-expansion", "npm:2.1.2"]\
+          ["brace-expansion", "npm:2.1.7"]\
         ],\
         "linkType": "HARD"\
       }],\
@@ -4388,10 +4388,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:5.2.0", {\
-        "packageLocation": "./.yarn/cache/diff-npm-5.2.0-f523a581f3-01b7b440f8.zip/node_modules/diff/",\
+      ["npm:5.2.2", {\
+        "packageLocation": "./.yarn/cache/diff-npm-5.2.2-8338a97b62-8a885b3811.zip/node_modules/diff/",\
         "packageDependencies": [\
-          ["diff", "npm:5.2.0"]\
+          ["diff", "npm:5.2.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4777,10 +4777,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["fast-copy", [\
-      ["npm:3.0.2", {\
-        "packageLocation": "./.yarn/cache/fast-copy-npm-3.0.2-d747bd131f-97e1022e2a.zip/node_modules/fast-copy/",\
+      ["npm:3.1.0", {\
+        "packageLocation": "./.yarn/cache/fast-copy-npm-3.1.0-8930687ef8-759ff1568a.zip/node_modules/fast-copy/",\
         "packageDependencies": [\
-          ["fast-copy", "npm:3.0.2"]\
+          ["fast-copy", "npm:3.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -6637,7 +6637,7 @@ const RAW_RUNTIME_STATE =
       ["npm:9.0.9", {\
         "packageLocation": "./.yarn/cache/minimatch-npm-9.0.9-3ee8f15008-b91fad937d.zip/node_modules/minimatch/",\
         "packageDependencies": [\
-          ["brace-expansion", "npm:2.1.2"],\
+          ["brace-expansion", "npm:2.1.7"],\
           ["minimatch", "npm:9.0.9"]\
         ],\
         "linkType": "HARD"\
@@ -7150,7 +7150,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["colorette", "npm:2.0.20"],\
           ["dateformat", "npm:4.6.3"],\
-          ["fast-copy", "npm:3.0.2"],\
+          ["fast-copy", "npm:3.1.0"],\
           ["fast-safe-stringify", "npm:2.1.1"],\
           ["help-me", "npm:5.0.0"],\
           ["joycon", "npm:3.1.1"],\
@@ -7628,7 +7628,7 @@ const RAW_RUNTIME_STATE =
           ["@sinonjs/commons", "npm:3.0.1"],\
           ["@sinonjs/fake-timers", "npm:11.2.2"],\
           ["@sinonjs/samsam", "npm:8.0.0"],\
-          ["diff", "npm:5.2.0"],\
+          ["diff", "npm:5.2.2"],\
           ["nise", "npm:6.1.1"],\
           ["sinon", "npm:18.0.1"],\
           ["supports-color", "npm:7.2.0"]\
